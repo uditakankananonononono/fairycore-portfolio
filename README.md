@@ -35,3 +35,9 @@ npm run build
 | Finale | Six live word locks, animated keyhole, bloom reveal, four hover meanings, randomized fairy |
 
 The `?all=1#finale` query is a QA-only shortcut for visually checking the ready-state finale. It does not affect normal visitors.
+
+## V4 3D journey
+
+The primary "3D journey" route is a full-viewport, continuous Three.js atlas. Scroll or arrow keys move the camera through seven landmarks; pointer drag steers the view; clicking the lit structure awakens the current space. A guided tour crosses the whole world automatically and can be stopped at any time.
+
+The 13 canonical verbatim sources are preserved in `documents.json`. They are additionally parsed into 433 titled activity passages in `activities.json`, organized across the six worlds. Each passage is available through paged horizontal decks, full-space filtering and a readable dossier. Nothing is dropped: Archive remains the exact-text source of truth and indexes all 42 Drive artifacts.
