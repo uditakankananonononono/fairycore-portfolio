@@ -56,3 +56,28 @@ Check the production URL in a private browser window:
 ## Optional custom domain
 
 In Vercel: Project → Settings → Domains → add the chosen domain. Keep the generated `vercel.app` URL until DNS shows **Valid Configuration**. No code change is needed.
+
+## V4 journey acceptance
+
+- Open `/#journey` and verify the moonlit tower is visibly rendered in the world.
+- Scroll forward and backward; confirm both camera depth and the active chapter marker change.
+- Drag horizontally; confirm the camera steers.
+- Use Arrow Down/Right and Arrow Up/Left; confirm keyboard travel matches wheel travel.
+- Start and stop Guided tour.
+- Click a glowing 3D landmark and confirm its space awakens.
+- Open the current world's trial, solve the content-specific sequence, refresh, and verify the word persists.
+- Page beyond the first 40 activity cards, filter the current space and open a full dossier.
+- Complete all six trials and open the finale keyhole.
+
+## Content acceptance
+
+The deployed site is complete only if these counts remain true:
+
+- Archive reports 13 source scrolls.
+- Journey activity decks collectively read from 433 organized passages.
+- Portfolio Drive index reports 42 artifacts.
+- Searching Archive for `phage` returns the engineered bacteriophages paper.
+- Searching the Student journey space for `Protein Folding` returns its activity passage.
+- Opening a dossier shows the complete organized passage, not placeholder copy.
+
+These counts are asserted from the checked-in JSON during the release build. Do not replace the JSON with manually shortened marketing copy.
