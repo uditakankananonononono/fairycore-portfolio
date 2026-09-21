@@ -147,3 +147,7 @@ DEPLOY.md                  Exact Vercel steps and acceptance checks
 - Trial assertions verify all six content-specific clue sequences.
 
 See [DEPLOY.md](./DEPLOY.md) for deployment and production acceptance testing.
+
+### Timeline observatory
+
+The Journey HUD includes an exploratory Timeline Observatory. It groups the checked-in activity passages into five broad narrative eras: Origins, Foundation, Research Rooms, Systems, and Forward Questions. It shows source-document orbits, counts and linked passage cards. Because many source documents omit exact dates, the interface explicitly treats this as a navigational interpretation, not a dated CV; no dates are invented.
