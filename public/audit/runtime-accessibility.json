@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "generated_from": "production dist runtime smoke checks in headless Chromium",
+  "generated_at": "2026-09-22T01:20:00.988Z",
+  "summary": {
+    "checks": 25,
+    "passed": 24,
+    "failed": 1
+  },
+  "environment": {
+    "browser": "headless Chromium",
+    "viewport_desktop": "1440x1000",
+    "viewport_mobile": "500x757",
+    "dist_sha256": "99c2de6dd08fe94a105f37981fa77790a2323a4c68fae182c42b0f652dcd69fc"
+  },
+  "checks": [
+    {
+      "id": "keyboard-palette",
+      "label": "Ctrl/Command+K opens named cabinet and focuses search",
+      "status": "pass",
+      "evidence": {
+        "open": true,
+        "focus": "Search portfolio tools",
+        "named": true
+      }
+    },
+    {
+      "id": "tool-thread-atlas",
+      "label": "Thread Atlas opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "The thread atlas",
+        "focusable": 39,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-timeline-observatory",
+      "label": "Timeline Observatory opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Timeline observatory",
+        "focusable": 27,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-evidence-constellation",
+      "label": "Evidence Constellation opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Evidence constellation",
+        "focusable": 125,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-portfolio-curator",
+      "label": "Portfolio Curator opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Portfolio curator",
+        "focusable": 10,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-relationship-weave",
+      "label": "Relationship Weave opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Relationship weave",
+        "focusable": 55,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-question-garden",
+      "label": "Question Garden opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Question garden",
+        "focusable": 38,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-artifact-cinema",
+      "label": "Artifact Cinema opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Artifact cinema",
+        "focusable": 52,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-skills-observatory",
+      "label": "Skills Observatory opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Skills observatory",
+        "focusable": 57,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-values-compass",
+      "label": "Values Compass opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Values compass",
+        "focusable": 59,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-project-galaxy",
+      "label": "Project Galaxy opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Project galaxy",
+        "focusable": 62,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-source-integrity-desk",
+      "label": "Source Integrity Desk opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Source integrity desk",
+        "focusable": 18,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-provenance-diff-lab",
+      "label": "Provenance Diff Lab opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Provenance Diff Lab",
+        "focusable": 13,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-narrative-trail-composer",
+      "label": "Narrative Trail Composer opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Narrative Trail Composer",
+        "focusable": 105,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-audience-lens-studio",
+      "label": "Audience Lens Studio opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Audience Lens Studio",
+        "focusable": 68,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-claim-context-matrix",
+      "label": "Claim Context Matrix opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Claim Context Matrix",
+        "focusable": 228,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-archive-query-workbench",
+      "label": "Archive Query Workbench opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Archive Query Workbench",
+        "focusable": 165,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-accessibility-audit-ledger",
+      "label": "Accessibility Audit Ledger opens a named dialog with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "dialog": true,
+        "name": "Accessibility Audit Ledger",
+        "focusable": 5,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-portfolio-state-capsule",
+      "label": "Portfolio State Capsule opens a named dialog with focusable controls",
+      "status": "fail",
+      "evidence": {
+        "dialog": false,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "tool-verbatim-archive",
+      "label": "Verbatim Archive opens a headed page with focusable controls",
+      "status": "pass",
+      "evidence": {
+        "page": true,
+        "name": "The complete archive",
+        "focusable": 59,
+        "escape_closed": true
+      }
+    },
+    {
+      "id": "deep-link-query",
+      "label": "query deep link restores source-derived workspace",
+      "status": "pass",
+      "evidence": {
+        "open": true,
+        "evidence": "6"
+      }
+    },
+    {
+      "id": "deep-link-claims",
+      "label": "claims deep link restores source-derived workspace",
+      "status": "pass",
+      "evidence": {
+        "open": true,
+        "evidence": "11 matching passages"
+      }
+    },
+    {
+      "id": "deep-link-diff",
+      "label": "diff deep link restores source-derived workspace",
+      "status": "pass",
+      "evidence": {
+        "open": true,
+        "evidence": "LEFT CANONICAL PASSAGEd1-1 · Name: Udita Phookand1-2 · Awards & Scholarshipsd1-3 · Commonwealth Global Essay Competition 2025 Silver Awardeed1-4 · The Telegraph 18 Under 18 Award (2025 Winner)d1-5 · Nationald1-6 · To Join for internship during the program as part of itd1-7 · To Join for internship during the program as part of itd1-8 · John Locke Institute 2025 Global Essay Prized1-9 · Harvard HMX Program scholarship (70%) on coursesd1-10 · Lumiere Education Research Scholar Finalist 2024d1-11 · Medicined1-12 · Boston Leadership Institute Summer Program (2024) – Admittedd1-13 · Regeneration & Molecular Biology Pathwayd1-14 · Selected for NeXGen STEM Conference 2025 with full scholarshipd1-15 · Extracurricularsd1-16 · 2025–2026 Stanford Neuroscience JClubd1-17 · Oncolytic Virotherapy Projectd1-18 · Oncolytic Virotherapy Projectd1-19 · Oncolytic Virotherapy Projectd1-20 · Outreach Planning Directord1-21 · Tasksd1-22 · Tasksd1-23 · Ambassador Managerd1-24 · Tasksd1-25 · Chapter Directors (National & International)d1-26 · Tasksd1-27 · Tasksd1-28 · Motivationd1-29 · Gene & Genome Analysis Moduled1-30 · Synthetic Biology Moduled1-31 · Virtual Cell Simulatord1-32 · Molecular Docking + Protein Toolsd1-33 · Protein Folding + Deep Learningd1-34 · Deep Learning Training Pipelined1-35 · Frontend + Deployment Stackd1-36 · About med1-37 · Researchd1-38 · Researchd2-1 · Executive Summaryd2-2 · Executive Summaryd2-3 · Executive Summaryd2-4 · Executive Summaryd2-5 · 1. Technical Titled2-6 · 2.1 Core Research Questiond2-7 · 2.1 Core Research Questiond2-8 · 2.3 Research Objectivesd2-9 · BioNet has deployed a cross-silo FL architecture with the following componentsd2-10 · 3.2 Participating Hospital Partnersd2-11 · The federated model predicts clinical outcomes using de-identified patient data includingd2-12 · Training follows a standardized five-step protocol establishedd2-13 · Performance is evaluated across three dimensionsd2-14 · 4.1 Predictive Performance Comparisond2-15 · Local-Only (Site C - Rare Trait): 0.727d2-16 · 4.2 Fairness Metrics Across Demographic Groupsd2-17 · Fairness Metrics by Demographic Group (Federated vs. Local-Only)d2-18 · Equalized Odds Gap (Local): 0.19d2-19 · Equalized Odds Gap (Local): 0.19d2-20 · Privacy-Utility Trade-off with Differential Privacyd2-21 · Model Utility Score: 1.00d2-22 · Model Utility Score: 0.97d2-23 · Model Utility Score: 0.93d2-24 · Model Utility Score: 0.87d2-25 · Model Utility Score: 0.79d2-26 · 4.4 Communication Efficiencyd2-27 · Model Accuracy: 0.523d2-28 · Model Accuracy: 0.712d2-29 · Model Accuracy: 0.798d2-30 · Model Accuracy: 0.841d2-31 · Model Accuracy: 0.858d2-32 · Model Accuracy: 0.868d2-33 · Model Accuracy: 0.874d2-34 · Model Accuracy: 0.876d2-35 · 4.5 Performance Across Hospital Sitesd2-36 · Local Data Size: 50,000d2-37 · Local Data Size: 15,000d2-38 · Improvement: +1.9%d2-39 · Local Data Size: 8,000d2-40 · Local Data Size: 10,000d2-41 · Local Data Size: 12,000d2-42 · Improvement: +2.1%d2-43 · BioNet Success Metrics Achievedd2-44 · Status: Exceededd2-45 · Status: Achievedd2-46 · Status: Exceededd2-47 · Status: Achievedd2-48 · Status: Achievedd2-49 · Status: Achievedd2-50 · BioNet's results were benchmarked against published FL studies in healthcared2-51 · BioNet's fairness results compare favorably with published fairness-aware FL frameworksd2-52 · BioNet's privacy guarantees align with regulatory requirementsd2-53 · 6.1 Infrastructure Requirementsd2-54 · 6.2 Data Heterogeneityd2-55 · 6.3 Experiment Managementd2-56 · 6.4 Data Standardizationd2-57 · 7.1 Key Findingsd2-58 · Direction 1 establishes the foundational layer for the broader BioNet ecosystemd2-59 · 7.3 Next Stepsd2-60 · 7.4 Impact Statementd2-61 · Referencesd2-62 · Referencesd2-63 · 1. Technical Titled2-64 · 2.1 Core Research Questiond2-65 · 2.1 Core Research Questiond2-66 · 2.3 Research Objectivesd2-67 · BioNet has deployed a hybrid AI framework incorporating multiple machine learning approachesd2-68 · The model is trained on de-identified data from multiple sourcesd2-69 · Variables incorporated included2-70 · Training follows a standardized protocold2-71 · Performance is evaluated across four dimensionsd2-72 · 4.1 Predictive Performance Comparisond2-73 · Metric: Matching Accuracyd2-74 · Metric: Matching Accuracyd2-75 · Metric: Predicted 1-Year Rejection Rated2-76 · Metric: Predicted 5-Year Graft Survivald2-77 · Metric: Predicted Waitlist Mortality Reductiond2-78 · Model Performance by Ancestryd2-79 · Demographic Group: South Asiand2-80 · Performance Gap (Traditional): -0.07d2-81 · Demographic Group: East Asiand2-82 · Performance Gap (Traditional): -0.05d2-83 · Performance Gap (Traditional): -0.14d2-84 · Variable Importance in AI Matching Modeld2-85 · Cumulative Contribution: 28%d2-86 · Cumulative Contribution: 50%d2-87 · Cumulative Contribution: 83%d2-88 · Cumulative Contribution: 100%d2-89 · BioNet Direction 2 Success Metrics Achievedd2-90 · Status: Exceededd2-91 · Status: Achievedd2-92 · Status: Exceededd2-93 · Status: Achievedd2-94 · BioNet's results were benchmarked against published AI transplant studiesd2-95 · 5.2 Clinical Translation Potentiald2-96 · 6.2 Biological Complexityd2-97 · 6.3 Validation Without Clinical Trialsd2-98 · 7.1 Key Findingsd2-99 · Direction 2 builds directly on the federated infrastructure established in Direction 1d2-100 · 7.3 Next Stepsd2-101 · 7.4 Impact Statementd2-102 · Referencesd2-103 · Referencesd2-104 · 1. Technical Titled2-105 · 2.1 Core Research Questiond2-106 · 2.1 Core Research Questiond2-107 · 2.3 Research Objectivesd2-108 · BioNet has constructed a bipartite graph network with the following componentsd2-109 · BioNet has mapped the connectivity of 50+ institutions across the partner networkd2-110 · Network construction follows a standardized protocold2-111 · Network performance is evaluated across three dimensionsd2-112 · Metric: Disconnected System (Baseline)d2-113 · Network Density: 0.037d2-114 · Metric: Connected System (Optimized)d2-115 · Average Path Length: 2.8d2-116 · Sample Accessibility Metricsd2-117 · Improvement: -83%d2-118 · Improvement: +66%d2-119 · Improvement: +34%d2-120 · Reduction: -65%d2-121 · Reduction: -62%d2-122 · Reduction: -47%d2-123 · Role: Peripherald2-124 · BioNet Direction 3 Success Metrics Achievedd2-125 · Status: Exceededd2-126 · Status: Exceededd2-127 · Status: Exceededd2-128 · Status: Exceededd2-129 · Status: Exceededd2-130 · BioNet's results were benchmarked against published network optimization studiesd2-131 · 6.1 Institutional Barriersd2-132 · 6.2 Data Standardizationd2-133 · 6.3 Network Model Accuracyd2-134 · 6.4 Sustainabilityd2-135 · 7.1 Key Findingsd2-136 · Direction 3 establishes the connectivity layer for the broader BioNet ecosystemd2-137 · 7.3 Next Stepsd2-138 · 7.4 Impact Statementd2-139 · Referencesd2-140 · 1. Technical Titled2-141 · 2.1 Core Research Questiond2-142 · 2.1 Core Research Questiond2-143 · 2.3 Research Objectivesd2-144 · BioNet has deployed a comprehensive bias detection framework incorporatingd2-145 · Pre-Processingd2-146 · In-Processingd2-147 · Post-Processingd2-148 · Performance is evaluated across three dimensionsd2-149 · Detected Bias Score: Very High (0.92)d2-150 · Detected Bias Score: Moderate (0.45)d2-151 · Non-European Representation: 92%d2-152 · Change: -69.6%d2-153 · Change: -62.5%d2-154 · Computational Cost: Mediumd2-155 · Reduction: -57.1%d2-156 · Reduction: -50.0%d2-157 · BioNet Direction 4 Success Metrics Achievedd2-158 · Status: Exceededd2-159 · Status: Exceededd2-160 · Status: Exceededd2-161 · Status: Exceededd2-162 · Status: Achievedd2-163 · BioNet's results were benchmarked against published debiasing methodsd2-164 · 5.2 Genomic Equity Contextd2-165 · 5.3 Practical Tool Developmentd2-166 · 6.1 Defining Fairness Rigorouslyd2-167 · 6.2 Avoiding Overcorrectiond2-168 · 6.3 Data Scarcityd2-169 · 6.4 Ethical Considerationsd2-170 · 7.1 Key Findingsd2-171 · 7.4 Impact Statementd2-172 · Referencesd3-1 · The Birth of a Scientistd3-2 · The Birth of a Scientistd3-3 · The Birth of a Scientistd3-4 · The Alchemy of Timed3-5 · The Alchemy of Timed3-6 · The Hidden Curriculumd3-7 · The Hidden Curriculumd3-8 · The Hidden Curriculumd3-9 · Spectrumd3-10 · Spectrumd3-11 · Spectrumd3-12 · Chapter of Lifed3-13 · Chapter of Lifed3-14 · Chapter of Lifed3-15 · Chapter of Lifed3-16 · Chapter of Lifed3-17 · Chapter of Lifed3-18 · Between equations for CRISPR-guided gene edits and notes from Stanford AI4All, I scribbledd3-19 · Between equations for CRISPR-guided gene edits and notes from Stanford AI4All, I scribbledd4-1 · SugarCode AI: 78-module atlasd4-2 · SugarCode AI: 78-module atlasd4-3 · SugarCode AI: 78-module atlasd4-4 · SugarCode AI: 78-module atlasd4-5 · SugarCode AI: 78-module atlasd4-6 · SugarCode AI: 78-module atlasd4-7 · SugarCode AI: 78-module atlasd4-8 · SugarCode AI: 78-module atlasd4-9 · SugarCode AI: 78-module atlasd4-10 · SugarCode AI: 78-module atlasd4-11 · SugarCode AI: 78-module atlasd4-12 · SugarCode AI: 78-module atlasd4-13 · SugarCode AI: 78-module atlasd4-14 · SugarCode AI: 78-module atlasd4-15 · SugarCode AI: 78-module atlasd4-16 · SugarCode AI: 78-module atlasd4-17 · SugarCode AI: 78-module atlasd4-18 · SugarCode AI: 78-module atlasd4-19 · SugarCode AI: 78-module atlasd4-20 · SugarCode AI: 78-module atlasd4-21 · SugarCode AI: 78-module atlasd4-22 · SugarCode AI: 78-module atlasd4-23 · SugarCode AI: 78-module atlasd4-24 · SugarCode AI: 78-module atlasd4-25 · SugarCode AI: 78-module atlasd4-26 · SugarCode AI: 78-module atlasd5-1 · Udita Phookand5-2 · Udita Phookand5-3 · Introductiond5-4 · one of nature's most ancient and prolific bacterial predatorsd5-5 · one of nature's most ancient and prolific bacterial predatorsd5-6 · computational design, and machine learning is forging a new frontierd5-7 · computational design, and machine learning is forging a new frontierd5-8 · computational design, and machine learning is forging a new frontierd5-9 · computational design, and machine learning is forging a new frontierd5-10 · computational design, and machine learning is forging a new frontierd5-11 · key setbacksd5-12 · key setbacksd5-13 · key setbacksd5-14 · key setbacksd5-15 · key setbacksd5-16 · Key Limitationsd5-17 · Key Limitationsd5-18 · Source: Rangel-Chávez, C., Galán-Vásquez, E., & Martínez-Antonio, A.d5-19 · engineering. Nature Reviews Microbiology, *19*(11), 705-716. DOId5-20 · Medical & Therapeutic Applicationsd5-21 · Medical & Therapeutic Applicationsd5-22 · Medical & Therapeutic Applicationsd5-23 · Medical & Therapeutic Applicationsd5-24 · Medical & Therapeutic Applicationsd5-25 · Biotechnology, Agriculture & Environmental Applicationsd5-26 · Biotechnology, Agriculture & Environmental Applicationsd5-27 · E.  Environmental Remediationd5-28 · A.  Phage Recombineering Systemsd5-29 · Retron-Mediated Genome Editingd5-30 · Retron-Mediated Genome Editingd5-31 · Conclusiond5-32 · REFERENCESd5-33 · 10.1016/S1473-3099(21)00612-5d5-34 · 10.1016/S0140-6736(01)20383-3d5-35 · Roux. 1917. Research in Microbiology, 158(7), 553-554. doid5-36 · and delivery platforms. Molecules, 30(15), 3132. doid5-37 · engineering. Trends in Biotechnology, 41(5), 669-685. doid5-38 · to several hundred kilobases. Nature Methods, 6(5), 343-345. doid5-39 · 10.1016/B978-0-12-385120-8.00015-2d5-40 · chromosome vectors. Science, 236(4803), 806-812. doid5-41 · chromosome vectors. Science, 236(4803), 806-812. doid5-42 · 21. Dunne, M., et al. (2021). Reprogramming bacteriophage host ranged5-43 · proteins. Current Opinion in Biotechnology, 68, 272-281. doid5-44 · applications. ACS Synthetic Biology, 11(9), 3207-3215. doid5-45 · networks. Bioinformatics, 34(23), 4088-4095. doid5-46 · information. Nature Microbiology, 9(11), 2847-2861. doid5-47 · therapy (2024). Frontiers in Microbiology, 15, 1449844. doid5-48 · therapy (2024). Frontiers in Microbiology, 15, 1449844. doid5-49 · International Journal of Food Microbiology, 254, 11-17. doid5-50 · March 11, 2024.d5-51 · 10.1128/AEM.01234-24d5-52 · Research, 248, 120856. doi: 10.1016/j.watres.2024.120856d5-53 · Science & Technology, 58(12), 5123-5134. doid5-54 · function. FEMS Microbiology Letters, 201(1), 9-14. doid5-55 · Mycobacterium tuberculosis. Nature Methods, 4(2), 147-152. doid5-56 · bacteriophage engineering. Scientific Reports, 11(1), 6796. doid5-57 · CRISPR-Cas9. ACS Synthetic Biology, 6(11), 1952-1961. doid5-58 · of a class 2 CRISPR-Cas system. Cell, 163(3), 759-771. doid5-59 · Research, 47(21), 11007-11019. doi: 10.1093/nar/gkz865d5-60 · endotoxins. Annual Review of Biochemistry, 71(1), 635-700. doid5-61 · models. Nature Biotechnology, 43(2), 234-245. doid5-62 · bacteria. Nature Communications, 11(1), 2934. doid5-63 · bacteria in the mouse gut. Nature, 632(8025), 877-884. doid5-64 · Research, 117696. doi: 10.48095/ccr2024117696d5-65 · Health, January 15, 2025.d5-66 · Cellular and Infection Microbiology, 14, 1428637. doid5-67 · December 2024.d6-1 · Name: Udita Kankana Phookand6-2 · Motherd6-3 · My breath was an echo I couldn’t catch.d6-4 · My breath was an echo I couldn’t catch.d6-5 · My breath was an echo I couldn’t catch.d7-1 · A life told through signal and noised7-2 · A life told through signal and noised7-3 · A life told through signal and noised7-4 · A life told through signal and noised7-5 · A life told through signal and noised7-6 · A life told through signal and noised7-7 · A life told through signal and noised7-8 · A life told through signal and noised8-1 · Better questionsd8-2 · Better questionsd8-3 · Better questionsd8-4 · Better questionsd8-5 · Better questionsd9-1 · Honors, exams & experiencesd9-2 · Honors, exams & experiencesd9-3 · Honors, exams & experiencesd9-4 · Honors, exams & experiencesd9-5 · Honors, exams & experiencesd9-6 · Honors, exams & experiencesd9-7 · Honors, exams & experiencesd9-8 · Honors, exams & experiencesd9-9 · Honors, exams & experiencesd9-10 · Research Paper – Finalist, Columbia Junior Science Journal 2024d9-11 · 3. Cancer Genomics & Epigenetics Project (Co-Author, In Preparation)d9-12 · 4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhid9-13 · 4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhid9-14 · 4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhid10-1 · My research interestsd10-2 · My research interestsd10-3 · My research interestsd10-4 · Neuro.d10-5 · to treat Alzheimer's, to treat neurodegenerative diseases? Period bloodd10-6 · to treat Alzheimer's, to treat neurodegenerative diseases? Period bloodd10-7 · Through all of this, I followed one continuous questiond10-8 · What are my long-range goals?d10-9 · What are my long-range goals?d10-10 · What are my long-range goals?d10-11 · What are my long-range goals?d10-12 · What are my long-range goals?d10-13 · What activities and/or hobbies demonstrate my leadership, creativity andd10-14 · What activities and/or hobbies demonstrate my leadership, creativity andd10-15 · Indigo International Academic Conference.d10-16 · Indigo International Academic Conference.d10-17 · What began as a sketchbook experiment slowly grew into more than 3,000d10-18 · My days are glued together by tiny creative detours—shading a sketchd10-19 · The Tuesday the committee voted to advance our bill, I was sitting in ad10-20 · The Tuesday the committee voted to advance our bill, I was sitting in ad10-21 · My leadership at Hope for Neuro taught me the logistics behind impact.d10-22 · My work with EcoBrothers became real the day a teacher from rural Bihard10-23 · My work with EcoBrothers became real the day a teacher from rural Bihard10-24 · Premonition Researchd10-25 · Premonition Researchd10-26 · Premonition Researchd11-1 · Academic portfoliod11-2 · Aakash National Talent Hunt Examinationd11-3 · 95/100 (99 Percentile)d11-4 · 55/60 (99 Percentile)d11-5 · 35/60 (94 Percentile)d11-6 · 45/60 (98 Percentile)d11-7 · 44/60 (90 Percentile)d11-8 · 43/60 (89 Percentile)d11-9 · 94/100 (State Rank 2)d11-10 · 92/100 (State Rank 15)d11-11 · Research & Laboratory Experienced11-12 · Publications, Journals & Scholarly Engagementd11-13 · Entrepreneurship, Startups & Global Innovationd11-14 · Leadership, Policy & Social Impactd11-15 · Selective Programs & Academic Communitiesd11-16 · Cultural, Artistic & Global Engagementd11-17 · Cultural, Artistic & Global Engagementd11-18 · Cultural, Artistic & Global Engagementd11-19 · Cultural, Artistic & Global Engagementd11-20 · Cultural, Artistic & Global Engagementd11-21 · Cultural, Artistic & Global Engagementd11-22 · Cultural, Artistic & Global Engagementd11-23 · Cultural, Artistic & Global Engagementd11-24 · Cultural, Artistic & Global Engagementd11-25 · Cultural, Artistic & Global Engagementd11-26 · Cultural, Artistic & Global Engagementd11-27 · Research Paper – Finalist, Columbia Junior Science Journal 2024d11-28 · 3. Cancer Genomics & Epigenetics Project (Co-Author, In Preparation)d11-29 · 4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhid11-30 · 4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhid11-31 · 4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhid12-1 · Research & Laboratory Experienced12-2 · Publications, Journals & Scholarly Engagementd12-3 · Entrepreneurship, Startups & Global Innovationd12-4 · Leadership, Policy & Social Impactd12-5 · Selective Programs & Academic Communitiesd12-6 · Cultural, Artistic & Global Engagementd12-7 · Cultural, Artistic & Global Engagementd12-8 · Cultural, Artistic & Global Engagementd13-1 · The agar dressd13-2 · The agar dressd13-3 · The agar dressd13-4 · The agar dressd13-5 · The agar dressd13-6 · Aakash National Talent Hunt Examinationd13-7 · 95/100 (99 Percentile)d13-8 · 55/60 (99 Percentile)d13-9 · 35/60 (94 Percentile)d13-10 · 45/60 (98 Percentile)d13-11 · 44/60 (90 Percentile)d13-12 · 43/60 (89 Percentile)d13-13 · 94/100 (State Rank 2)d13-14 · 92/100 (State Rank 15)⇄RIGHT CANONICAL PASSAGEd1-1 · Name: Udita Phookand1-2 · Awards & Scholarshipsd1-3 · Commonwealth Global Essay Competition 2025 Silver Awardeed1-4 · The Telegraph 18 Under 18 Award (2025 Winner)d1-5 · Nationald1-6 · To Join for internship during the program as part of itd1-7 · To Join for internship during the program as part of itd1-8 · John Locke Institute 2025 Global Essay Prized1-9 · Harvard HMX Program scholarship (70%) on coursesd1-10 · Lumiere Education Research Scholar Finalist 2024d1-11 · Medicined1-12 · Boston Leadership Institute Summer Program (2024) – Admittedd1-13 · Regeneration & Molecular Biology Pathwayd1-14 · Selected for NeXGen STEM Conference 2025 with full scholarshipd1-15 · Extracurricularsd1-16 · 2025–2026 Stanford Neuroscience JClubd1-17 · Oncolytic Virotherapy Projectd1-18 · Oncolytic Virotherapy Projectd1-19 · Oncolytic Virotherapy Projectd1-20 · Outreach Planning Directord1-21 · Tasksd1-22 · Tasksd1-23 · Ambassador Managerd1-24 · Tasksd1-25 · Chapter Directors (National & International)d1-26 · Tasksd1-27 · Tasksd1-28 · Motivationd1-29 · Gene & Genome Analysis Moduled1-30 · Synthetic Biology Moduled1-31 · Virtual Cell Simulatord1-32 · Molecular Docking + Protein Toolsd1-33 · Protein Folding + Deep Learningd1-34 · Deep Learning Training Pipelined1-35 · Frontend + Deployment Stackd1-36 · About med1-37 · Researchd1-38 · Researchd2-1 · Executive Summaryd2-2 · Executive Summaryd2-3 · Executive Summaryd2-4 · Executive Summaryd2-5 · 1. Technical Titled2-6 · 2.1 Core Research Questiond2-7 · 2.1 Core Research Questiond2-8 · 2.3 Research Objectivesd2-9 · BioNet has deployed a cross-silo FL architecture with the following componentsd2-10 · 3.2 Participating Hospital Partnersd2-11 · The federated model predicts clinical outcomes using de-identified patient data includingd2-12 · Training follows a standardized five-step protocol establishedd2-13 · Performance is evaluated across three dimensionsd2-14 · 4.1 Predictive Performance Comparisond2-15 · Local-Only (Site C - Rare Trait): 0.727d2-16 · 4.2 Fairness Metrics Across Demographic Groupsd2-17 · Fairness Metrics by Demographic Group (Federated vs. Local-Only)d2-18 · Equalized Odds Gap (Local): 0.19d2-19 · Equalized Odds Gap (Local): 0.19d2-20 · Privacy-Utility Trade-off with Differential Privacyd2-21 · Model Utility Score: 1.00d2-22 · Model Utility Score: 0.97d2-23 · Model Utility Score: 0.93d2-24 · Model Utility Score: 0.87d2-25 · Model Utility Score: 0.79d2-26 · 4.4 Communication Efficiencyd2-27 · Model Accuracy: 0.523d2-28 · Model Accuracy: 0.712d2-29 · Model Accuracy: 0.798d2-30 · Model Accuracy: 0.841d2-31 · Model Accuracy: 0.858d2-32 · Model Accuracy: 0.868d2-33 · Model Accuracy: 0.874d2-34 · Model Accuracy: 0.876d2-35 · 4.5 Performance Across Hospital Sitesd2-36 · Local Data Size: 50,000d2-37 · Local Data Size: 15,000d2-38 · Improvement: +1.9%d2-39 · Local Data Size: 8,000d2-40 · Local Data Size: 10,000d2-41 · Local Data Size: 12,000d2-42 · Improvement: +2.1%d2-43 · BioNet Success Metrics Achievedd2-44 · Status: Exceededd2-45 · Status: Achievedd2-46 · Status: Exceededd2-47 · Status: Achievedd2-48 · Status: Achievedd2-49 · Status: Achievedd2-50 · BioNet's results were benchmarked against published FL studies in healthcared2-51 · BioNet's fairness results compare favorably with published fairness-aware FL frameworksd2-52 · BioNet's privacy guarantees align with regulatory requirementsd2-53 · 6.1 Infrastructure Requirementsd2-54 · 6.2 Data Heterogeneityd2-55 · 6.3 Experiment Managementd2-56 · 6.4 Data Standardizationd2-57 · 7.1 Key Findingsd2-58 · Direction 1 establishes the foundational layer for the broader BioNet ecosystemd2-59 · 7.3 Next Stepsd2-60 · 7.4 Impact Statementd2-61 · Referencesd2-62 · Referencesd2-63 · 1. Technical Titled2-64 · 2.1 Core Research Questiond2-65 · 2.1 Core Research Questiond2-66 · 2.3 Research Objectivesd2-67 · BioNet has deployed a hybrid AI framework incorporating multiple machine learning approachesd2-68 · The model is trained on de-identified data from multiple sourcesd2-69 · Variables incorporated included2-70 · Training follows a standardized protocold2-71 · Performance is evaluated across four dimensionsd2-72 · 4.1 Predictive Performance Comparisond2-73 · Metric: Matching Accuracyd2-74 · Metric: Matching Accuracyd2-75 · Metric: Predicted 1-Year Rejection Rated2-76 · Metric: Predicted 5-Year Graft Survivald2-77 · Metric: Predicted Waitlist Mortality Reductiond2-78 · Model Performance by Ancestryd2-79 · Demographic Group: South Asiand2-80 · Performance Gap (Traditional): -0.07d2-81 · Demographic Group: East Asiand2-82 · Performance Gap (Traditional): -0.05d2-83 · Performance Gap (Traditional): -0.14d2-84 · Variable Importance in AI Matching Modeld2-85 · Cumulative Contribution: 28%d2-86 · Cumulative Contribution: 50%d2-87 · Cumulative Contribution: 83%d2-88 · Cumulative Contribution: 100%d2-89 · BioNet Direction 2 Success Metrics Achievedd2-90 · Status: Exceededd2-91 · Status: Achievedd2-92 · Status: Exceededd2-93 · Status: Achievedd2-94 · BioNet's results were benchmarked against published AI transplant studiesd2-95 · 5.2 Clinical Translation Potentiald2-96 · 6.2 Biological Complexityd2-97 · 6.3 Validation Without Clinical Trialsd2-98 · 7.1 Key Findingsd2-99 · Direction 2 builds directly on the federated infrastructure established in Direction 1d2-100 · 7.3 Next Stepsd2-101 · 7.4 Impact Statementd2-102 · Referencesd2-103 · Referencesd2-104 · 1. Technical Titled2-105 · 2.1 Core Research Questiond2-106 · 2.1 Core Research Questiond2-107 · 2.3 Research Objectivesd2-108 · BioNet has constructed a bipartite graph network with the following componentsd2-109 · BioNet has mapped the connectivity of 50+ institutions across the partner networkd2-110 · Network construction follows a standardized protocold2-111 · Network performance is evaluated across three dimensionsd2-112 · Metric: Disconnected System (Baseline)d2-113 · Network Density: 0.037d2-114 · Metric: Connected System (Optimized)d2-115 · Average Path Length: 2.8d2-116 · Sample Accessibility Metricsd2-117 · Improvement: -83%d2-118 · Improvement: +66%d2-119 · Improvement: +34%d2-120 · Reduction: -65%d2-121 · Reduction: -62%d2-122 · Reduction: -47%d2-123 · Role: Peripherald2-124 · BioNet Direction 3 Success Metrics Achievedd2-125 · Status: Exceededd2-126 · Status: Exceededd2-127 · Status: Exceededd2-128 · Status: Exceededd2-129 · Status: Exceededd2-130 · BioNet's results were benchmarked against published network optimization studiesd2-131 · 6.1 Institutional Barriersd2-132 · 6.2 Data Standardizationd2-133 · 6.3 Network Model Accuracyd2-134 · 6.4 Sustainabilityd2-135 · 7.1 Key Findingsd2-136 · Direction 3 establishes the connectivity layer for the broader BioNet ecosystemd2-137 · 7.3 Next Stepsd2-138 · 7.4 Impact Statementd2-139 · Referencesd2-140 · 1. Technical Titled2-141 · 2.1 Core Research Questiond2-142 · 2.1 Core Research Questiond2-143 · 2.3 Research Objectivesd2-144 · BioNet has deployed a comprehensive bias detection framework incorporatingd2-145 · Pre-Processingd2-146 · In-Processingd2-147 · Post-Processingd2-148 · Performance is evaluated across three dimensionsd2-149 · Detected Bias Score: Very High (0.92)d2-150 · Detected Bias Score: Moderate (0.45)d2-151 · Non-European Representation: 92%d2-152 · Change: -69.6%d2-153 · Change: -62.5%d2-154 · Computational Cost: Mediumd2-155 · Reduction: -57.1%d2-156 · Reduction: -50.0%d2-157 · BioNet Direction 4 Success Metrics Achievedd2-158 · Status: Exceededd2-159 · Status: Exceededd2-160 · Status: Exceededd2-161 · Status: Exceededd2-162 · Status: Achievedd2-163 · BioNet's results were benchmarked against published debiasing methodsd2-164 · 5.2 Genomic Equity Contextd2-165 · 5.3 Practical Tool Developmentd2-166 · 6.1 Defining Fairness Rigorouslyd2-167 · 6.2 Avoiding Overcorrectiond2-168 · 6.3 Data Scarcityd2-169 · 6.4 Ethical Considerationsd2-170 · 7.1 Key Findingsd2-171 · 7.4 Impact Statementd2-172 · Referencesd3-1 · The Birth of a Scientistd3-2 · The Birth of a Scientistd3-3 · The Birth of a Scientistd3-4 · The Alchemy of Timed3-5 · The Alchemy of Timed3-6 · The Hidden Curriculumd3-7 · The Hidden Curriculumd3-8 · The Hidden Curriculumd3-9 · Spectrumd3-10 · Spectrumd3-11 · Spectrumd3-12 · Chapter of Lifed3-13 · Chapter of Lifed3-14 · Chapter of Lifed3-15 · Chapter of Lifed3-16 · Chapter of Lifed3-17 · Chapter of Lifed3-18 · Between equations for CRISPR-guided gene edits and notes from Stanford AI4All, I scribbledd3-19 · Between equations for CRISPR-guided gene edits and notes from Stanford AI4All, I scribbledd4-1 · SugarCode AI: 78-module atlasd4-2 · SugarCode AI: 78-module atlasd4-3 · SugarCode AI: 78-module atlasd4-4 · SugarCode AI: 78-module atlasd4-5 · SugarCode AI: 78-module atlasd4-6 · SugarCode AI: 78-module atlasd4-7 · SugarCode AI: 78-module atlasd4-8 · SugarCode AI: 78-module atlasd4-9 · SugarCode AI: 78-module atlasd4-10 · SugarCode AI: 78-module atlasd4-11 · SugarCode AI: 78-module atlasd4-12 · SugarCode AI: 78-module atlasd4-13 · SugarCode AI: 78-module atlasd4-14 · SugarCode AI: 78-module atlasd4-15 · SugarCode AI: 78-module atlasd4-16 · SugarCode AI: 78-module atlasd4-17 · SugarCode AI: 78-module atlasd4-18 · SugarCode AI: 78-module atlasd4-19 · SugarCode AI: 78-module atlasd4-20 · SugarCode AI: 78-module atlasd4-21 · SugarCode AI: 78-module atlasd4-22 · SugarCode AI: 78-module atlasd4-23 · SugarCode AI: 78-module atlasd4-24 · SugarCode AI: 78-module atlasd4-25 · SugarCode AI: 78-module atlasd4-26 · SugarCode AI: 78-module atlasd5-1 · Udita Phookand5-2 · Udita Phookand5-3 · Introductiond5-4 · one of nature's most ancient and prolific bacterial predatorsd5-5 · one of nature's most ancient and prolific bacterial predatorsd5-6 · computational design, and machine learning is forging a new frontierd5-7 · computational design, and machine learning is forging a new frontierd5-8 · computational design, and machine learning is forging a new frontierd5-9 · computational design, and machine learning is forging a new frontierd5-10 · computational design, and machine learning is forging a new frontierd5-11 · key setbacksd5-12 · key setbacksd5-13 · key setbacksd5-14 · key setbacksd5-15 · key setbacksd5-16 · Key Limitationsd5-17 · Key Limitationsd5-18 · Source: Rangel-Chávez, C., Galán-Vásquez, E., & Martínez-Antonio, A.d5-19 · engineering. Nature Reviews Microbiology, *19*(11), 705-716. DOId5-20 · Medical & Therapeutic Applicationsd5-21 · Medical & Therapeutic Applicationsd5-22 · Medical & Therapeutic Applicationsd5-23 · Medical & Therapeutic Applicationsd5-24 · Medical & Therapeutic Applicationsd5-25 · Biotechnology, Agriculture & Environmental Applicationsd5-26 · Biotechnology, Agriculture & Environmental Applicationsd5-27 · E.  Environmental Remediationd5-28 · A.  Phage Recombineering Systemsd5-29 · Retron-Mediated Genome Editingd5-30 · Retron-Mediated Genome Editingd5-31 · Conclusiond5-32 · REFERENCESd5-33 · 10.1016/S1473-3099(21)00612-5d5-34 · 10.1016/S0140-6736(01)20383-3d5-35 · Roux. 1917. Research in Microbiology, 158(7), 553-554. doid5-36 · and delivery platforms. Molecules, 30(15), 3132. doid5-37 · engineering. Trends in Biotechnology, 41(5), 669-685. doid5-38 · to several hundred kilobases. Nature Methods, 6(5), 343-345. doid5-39 · 10.1016/B978-0-12-385120-8.00015-2d5-40 · chromosome vectors. Science, 236(4803), 806-812. doid5-41 · chromosome vectors. Science, 236(4803), 806-812. doid5-42 · 21. Dunne, M., et al. (2021). Reprogramming bacteriophage host ranged5-43 · proteins. Current Opinion in Biotechnology, 68, 272-281. doid5-44 · applications. ACS Synthetic Biology, 11(9), 3207-3215. doid5-45 · networks. Bioinformatics, 34(23), 4088-4095. doid5-46 · information. Nature Microbiology, 9(11), 2847-2861. doid5-47 · therapy (2024). Frontiers in Microbiology, 15, 1449844. doid5-48 · therapy (2024). Frontiers in Microbiology, 15, 1449844. doid5-49 · International Journal of Food Microbiology, 254, 11-17. doid5-50 · March 11, 2024.d5-51 · 10.1128/AEM.01234-24d5-52 · Research, 248, 120856. doi: 10.1016/j.watres.2024.120856d5-53 · Science & Technology, 58(12), 5123-5134. doid5-54 · function. FEMS Microbiology Letters, 201(1), 9-14. doid5-55 · Mycobacterium tuberculosis. Nature Methods, 4(2), 147-152. doid5-56 · bacteriophage engineering. Scientific Reports, 11(1), 6796. doid5-57 · CRISPR-Cas9. ACS Synthetic Biology, 6(11), 1952-1961. doid5-58 · of a class 2 CRISPR-Cas system. Cell, 163(3), 759-771. doid5-59 · Research, 47(21), 11007-11019. doi: 10.1093/nar/gkz865d5-60 · endotoxins. Annual Review of Biochemistry, 71(1), 635-700. doid5-61 · models. Nature Biotechnology, 43(2), 234-245. doid5-62 · bacteria. Nature Communications, 11(1), 2934. doid5-63 · bacteria in the mouse gut. Nature, 632(8025), 877-884. doid5-64 · Research, 117696. doi: 10.48095/ccr2024117696d5-65 · Health, January 15, 2025.d5-66 · Cellular and Infection Microbiology, 14, 1428637. doid5-67 · December 2024.d6-1 · Name: Udita Kankana Phookand6-2 · Motherd6-3 · My breath was an echo I couldn’t catch.d6-4 · My breath was an echo I couldn’t catch.d6-5 · My breath was an echo I couldn’t catch.d7-1 · A life told through signal and noised7-2 · A life told through signal and noised7-3 · A life told through signal and noised7-4 · A life told through signal and noised7-5 · A life told through signal and noised7-6 · A life told through signal and noised7-7 · A life told through signal and noised7-8 · A life told through signal and noised8-1 · Better questionsd8-2 · Better questionsd8-3 · Better questionsd8-4 · Better questionsd8-5 · Better questionsd9-1 · Honors, exams & experiencesd9-2 · Honors, exams & experiencesd9-3 · Honors, exams & experiencesd9-4 · Honors, exams & experiencesd9-5 · Honors, exams & experiencesd9-6 · Honors, exams & experiencesd9-7 · Honors, exams & experiencesd9-8 · Honors, exams & experiencesd9-9 · Honors, exams & experiencesd9-10 · Research Paper – Finalist, Columbia Junior Science Journal 2024d9-11 · 3. Cancer Genomics & Epigenetics Project (Co-Author, In Preparation)d9-12 · 4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhid9-13 · 4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhid9-14 · 4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhid10-1 · My research interestsd10-2 · My research interestsd10-3 · My research interestsd10-4 · Neuro.d10-5 · to treat Alzheimer's, to treat neurodegenerative diseases? Period bloodd10-6 · to treat Alzheimer's, to treat neurodegenerative diseases? Period bloodd10-7 · Through all of this, I followed one continuous questiond10-8 · What are my long-range goals?d10-9 · What are my long-range goals?d10-10 · What are my long-range goals?d10-11 · What are my long-range goals?d10-12 · What are my long-range goals?d10-13 · What activities and/or hobbies demonstrate my leadership, creativity andd10-14 · What activities and/or hobbies demonstrate my leadership, creativity andd10-15 · Indigo International Academic Conference.d10-16 · Indigo International Academic Conference.d10-17 · What began as a sketchbook experiment slowly grew into more than 3,000d10-18 · My days are glued together by tiny creative detours—shading a sketchd10-19 · The Tuesday the committee voted to advance our bill, I was sitting in ad10-20 · The Tuesday the committee voted to advance our bill, I was sitting in ad10-21 · My leadership at Hope for Neuro taught me the logistics behind impact.d10-22 · My work with EcoBrothers became real the day a teacher from rural Bihard10-23 · My work with EcoBrothers became real the day a teacher from rural Bihard10-24 · Premonition Researchd10-25 · Premonition Researchd10-26 · Premonition Researchd11-1 · Academic portfoliod11-2 · Aakash National Talent Hunt Examinationd11-3 · 95/100 (99 Percentile)d11-4 · 55/60 (99 Percentile)d11-5 · 35/60 (94 Percentile)d11-6 · 45/60 (98 Percentile)d11-7 · 44/60 (90 Percentile)d11-8 · 43/60 (89 Percentile)d11-9 · 94/100 (State Rank 2)d11-10 · 92/100 (State Rank 15)d11-11 · Research & Laboratory Experienced11-12 · Publications, Journals & Scholarly Engagementd11-13 · Entrepreneurship, Startups & Global Innovationd11-14 · Leadership, Policy & Social Impactd11-15 · Selective Programs & Academic Communitiesd11-16 · Cultural, Artistic & Global Engagementd11-17 · Cultural, Artistic & Global Engagementd11-18 · Cultural, Artistic & Global Engagementd11-19 · Cultural, Artistic & Global Engagementd11-20 · Cultural, Artistic & Global Engagementd11-21 · Cultural, Artistic & Global Engagementd11-22 · Cultural, Artistic & Global Engagementd11-23 · Cultural, Artistic & Global Engagementd11-24 · Cultural, Artistic & Global Engagementd11-25 · Cultural, Artistic & Global Engagementd11-26 · Cultural, Artistic & Global Engagementd11-27 · Research Paper – Finalist, Columbia Junior Science Journal 2024d11-28 · 3. Cancer Genomics & Epigenetics Project (Co-Author, In Preparation)d11-29 · 4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhid11-30 · 4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhid11-31 · 4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhid12-1 · Research & Laboratory Experienced12-2 · Publications, Journals & Scholarly Engagementd12-3 · Entrepreneurship, Startups & Global Innovationd12-4 · Leadership, Policy & Social Impactd12-5 · Selective Programs & Academic Communitiesd12-6 · Cultural, Artistic & Global Engagementd12-7 · Cultural, Artistic & Global Engagementd12-8 · Cultural, Artistic & Global Engagementd13-1 · The agar dressd13-2 · The agar dressd13-3 · The agar dressd13-4 · The agar dressd13-5 · The agar dressd13-6 · Aakash National Talent Hunt Examinationd13-7 · 95/100 (99 Percentile)d13-8 · 55/60 (99 Percentile)d13-9 · 35/60 (94 Percentile)d13-10 · 45/60 (98 Percentile)d13-11 · 44/60 (90 Percentile)d13-12 · 43/60 (89 Percentile)d13-13 · 94/100 (State Rank 2)d13-14 · 92/100 (State Rank 15)"
+      }
+    },
+    {
+      "id": "reduced-motion-runtime",
+      "label": "Reduced-motion emulation activates checked-in reduced-motion rules",
+      "status": "pass",
+      "evidence": {
+        "media": true,
+        "queries": 6
+      }
+    },
+    {
+      "id": "mobile-overflow",
+      "label": "500px Journey has no horizontal viewport overflow",
+      "status": "pass",
+      "evidence": {
+        "scrollWidth": 500,
+        "clientWidth": 500
+      }
+    }
+  ],
+  "boundaries": [
+    "Runtime smoke checks cover the named paths and environment only.",
+    "A pass is not a WCAG conformance claim or certification.",
+    "Assistive-technology and human usability testing remain required."
+  ]
+}

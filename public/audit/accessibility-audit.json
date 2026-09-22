@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_from": "static checked-in source heuristics during deterministic prebuild",
-  "generated_at": "2026-09-22T01:08:52.534Z",
+  "generated_at": "2026-09-22T01:25:08.482Z",
   "summary": {
     "checks": 10,
     "passed": 10,
@@ -17,7 +17,7 @@
     "explicit_close_labels": 28,
     "reduced_motion_queries": 6,
     "focus_visible_rules": 5,
-    "css_color_tokens_observed": 373
+    "css_color_tokens_observed": 374
   },
   "checks": [
     {
@@ -130,8 +130,8 @@
     "Failures and warnings remain visible; the builder does not smooth or suppress them."
   ],
   "source_sha256": {
-    "main_jsx": "5757c3edd1c0c3503eed661eb2b8ee89260c7347f53059c7b6c51ce5e5d72590",
-    "style_css": "6ca7f632910ddc2a7716e735046708bb4f4c0d41e372fdf1822a43d1903dcc37",
+    "main_jsx": "232e24d62857d32d564d9c4c52699506695e90d20f0e906c15b5d7d648425386",
+    "style_css": "76d3c7397e6d1fc33e617c3703cbef7bd9576895971c2e5439b2e0dbb068e70c",
     "index_html": "52200ee48fa63d10f36ab61a5af24c005942243a46e1638738344c888c77c58a"
   }
 }
