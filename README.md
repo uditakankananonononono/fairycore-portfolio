@@ -230,3 +230,9 @@ Hashes prove byte identity of checked-in files, not authenticity or truth. The i
 The always-visible `☷ tools` control opens a single accessible launcher for all 18 advanced reading/review systems, including the Verbatim Archive. It replaces the need to expose every specialist control on small screens without removing any capability. Tools are searchable by title, purpose, or group and filterable across Explore, Trace, Present, Review, Audit, and Search. Browser-local decision/trail/query counts appear as count-only badges; their contents are never displayed in the launcher or synced.
 
 From the Journey, `/` or Ctrl/Command+K opens the cabinet unless focus is in a text field. Search receives focus on open, Escape closes the modal, all controls have keyboard focus behavior, and every system is launchable without pointer precision. On mobile, the cabinet entry remains fixed above the viewport edge while the previously crowded specialist buttons stay hidden.
+
+### Deep-linkable workspace state
+
+Public source-derived workspace state can be encoded in the URL for the Archive Query Workbench, Claim Context Matrix and Provenance Diff Lab. Their “Copy view link” actions preserve only allowlisted filters and canonical passage IDs: literal AND/OR/exact terms, structural filters, claim-shape filters, selected passage IDs and comparison sides. Opening a copied URL restores the advanced tool and its public view. Browser back/forward reopens or clears tools from URL state.
+
+The allowlist intentionally excludes Review Queue decisions, trail order, visitor-authored labels, saved-query names, local timestamps and all browser-local content. Closing a deep-linked workspace clears its workspace parameters. URL state does not confer verification or turn a visitor’s view into Udita’s intended narrative.
