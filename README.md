@@ -218,3 +218,9 @@ This matrix classifies wording patterns only. It does not declare any statement 
 The Journey HUD’s `⌕ query` control provides deterministic advanced search across all 433 canonical passages. It combines an ALL-term group (AND), ANY-term group (OR), one exact contiguous phrase, source, content type, artifact-link state, and Claim Context wording shape. Every result lists the literal terms/phrase/shape that caused its match. Matching is case-insensitive and literal; no semantic expansion, embeddings or inferred synonyms are used. Up to 150 results render at once, with a prompt to narrow visible rules when more match.
 
 Named queries persist only in `udita-archive-queries`. Exported/imported manifests contain query rules and timestamps only, never canonical source text. Imports bound field sizes and validate structural filters against checked-in source/type/shape choices. Results do not imply truth, relevance quality, relationships, endorsement or completeness.
+
+### Portfolio State Capsule
+
+The Journey HUD’s `◌ state` control opens “What is actually shipped,” an in-site view backed by `public/audit/portfolio-state.json`. `scripts/build-state-capsule.mjs` runs after the content audit during every production prebuild and records: implemented system inventory with working launch routes; canonical counts; SHA-256 fingerprints and record counts for nine canonical/derived datasets; browser-local storage keys; package scripts and pinned dependency versions; checked-in Vercel configuration; repository URL; and permanent truth boundaries. The JSON is downloadable.
+
+Hashes prove byte identity of checked-in files, not authenticity or truth. The inventory describes checked-in implementation and a successful local production build, not public deployment status, uptime, or Vercel account state. Derived views retain their own heuristic limits, and local visitor data remains neither published nor shared.

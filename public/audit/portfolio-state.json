@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "generated_from": "checked-in repository state during deterministic prebuild",
+  "generated_at": "2026-09-22T00:59:15.044Z",
+  "repository": "https://github.com/uditakankananonononono/fairycore-portfolio",
+  "deployment_status": "not asserted; this file describes checked-in build state only",
+  "canonical_counts": {
+    "documents": 13,
+    "characters": 288181,
+    "words": 39367,
+    "passages": 433,
+    "drive_artifacts": 42,
+    "artifact_edges": 356,
+    "anomalies": 160
+  },
+  "datasets": [
+    {
+      "id": "documents",
+      "path": "src/content/documents.json",
+      "sha256": "ba348ea1b62594b9bc252eddc1b5dc1f4183485156204b268910c26bd5999f56",
+      "records": 13
+    },
+    {
+      "id": "activities",
+      "path": "src/content/activities.json",
+      "sha256": "86d63cf190015acc9392dccb805a2ef315ced834ca315bd14d8295a62118b28d",
+      "records": 433
+    },
+    {
+      "id": "drive_artifacts",
+      "path": "src/content/drive.json",
+      "sha256": "6da544ca801412fbf7b9847d10467af1d466f6fef63ad9774d52ac73eee8e080",
+      "records": 42
+    },
+    {
+      "id": "evidence_graph",
+      "path": "src/content/evidence-graph.json",
+      "sha256": "dd646442179f86613783aaec69f79f16918e578473773ac5695f9ab7feccd348",
+      "records": {
+        "passages": 433,
+        "artifacts": 42,
+        "sources": 13,
+        "artifact_edges": 356,
+        "unresolved_passages": 278
+      }
+    },
+    {
+      "id": "relationship_weave",
+      "path": "src/content/relationship-weave.json",
+      "sha256": "0a065a087fea6e75aaef3c0cc495062ec4b73885879abd58d04d9f0404612278",
+      "records": {
+        "entities": 47,
+        "mentions": 362,
+        "collisions": 6
+      }
+    },
+    {
+      "id": "questions",
+      "path": "src/content/questions.json",
+      "sha256": "793074bc7d8d44f5ce6a62b805bbea4b9a1b4937c42a4f1cabeb2a1ef27fb898",
+      "records": 30
+    },
+    {
+      "id": "skills",
+      "path": "src/content/skills.json",
+      "sha256": "649a706d75c807cdc2bec477e50a4f384838914ad26e5053a3a21db68e0d5a9e",
+      "records": 7
+    },
+    {
+      "id": "values",
+      "path": "src/content/values.json",
+      "sha256": "d3212ccad84fb6eb0cbe7e8dd27ffe8c3c266d19ce356ddc8b38add1e94554bb",
+      "records": 9
+    },
+    {
+      "id": "projects",
+      "path": "src/content/projects.json",
+      "sha256": "12947e33e8a15bd6429e2bdf325f5022a985f73c4c50d50bf60a25d7ce43ae88",
+      "records": 10
+    }
+  ],
+  "features": [
+    {
+      "id": "journey",
+      "title": "3D Journey",
+      "route": "journey",
+      "behavior": "Continuous Three.js travel with scroll, drag, cursor, keyboard and guided tour."
+    },
+    {
+      "id": "archive",
+      "title": "Verbatim Archive",
+      "route": "archive",
+      "behavior": "All 13 canonical source documents and complete text."
+    },
+    {
+      "id": "threads",
+      "title": "Thread Atlas",
+      "route": "threads",
+      "behavior": "Cross-source thematic thread navigation."
+    },
+    {
+      "id": "timeline",
+      "title": "Timeline Observatory",
+      "route": "timeline",
+      "behavior": "Date-bearing source passages with uncertainty retained."
+    },
+    {
+      "id": "evidence",
+      "title": "Evidence Constellation",
+      "route": "evidence",
+      "behavior": "Passage-to-source and heuristic artifact provenance links."
+    },
+    {
+      "id": "curator",
+      "title": "Portfolio Curator",
+      "route": "curator",
+      "behavior": "Fixed, time-budgeted guided routes with source/type diversity."
+    },
+    {
+      "id": "weave",
+      "title": "Relationship Weave",
+      "route": "weave",
+      "behavior": "Literal named-entity mentions with unresolved identity collisions."
+    },
+    {
+      "id": "questions",
+      "title": "Question Garden",
+      "route": "questions",
+      "behavior": "Source-extracted open questions without completion claims."
+    },
+    {
+      "id": "cinema",
+      "title": "Artifact Cinema",
+      "route": "cinema",
+      "behavior": "All supplied Drive artifacts with grounded passage links."
+    },
+    {
+      "id": "skills",
+      "title": "Skills Observatory",
+      "route": "skills",
+      "behavior": "Mentioned/described-doing/artifact-linked evidence states, not ratings."
+    },
+    {
+      "id": "values",
+      "title": "Values Compass",
+      "route": "values",
+      "behavior": "Source vocabulary clusters, not psychological traits."
+    },
+    {
+      "id": "projects",
+      "title": "Project Galaxy",
+      "route": "projects",
+      "behavior": "Project mentions, evidence density and explicit unresolved states."
+    },
+    {
+      "id": "sources",
+      "title": "Source Integrity Desk",
+      "route": "integrity",
+      "behavior": "Build-time counts, anomaly ledger and local Review Queue."
+    },
+    {
+      "id": "compare",
+      "title": "Provenance Diff Lab",
+      "route": "diffLab",
+      "behavior": "Read-only canonical passage comparison and exact phrase scan."
+    },
+    {
+      "id": "trail",
+      "title": "Narrative Trail Composer",
+      "route": "trailComposer",
+      "behavior": "Private visitor-authored routes and labels."
+    },
+    {
+      "id": "lenses",
+      "title": "Audience Lens Studio",
+      "route": "lensStudio",
+      "behavior": "Transparent vocabulary rankings with exact reasons."
+    },
+    {
+      "id": "claims",
+      "title": "Claim Context Matrix",
+      "route": "claimMatrix",
+      "behavior": "Quantified/date/recognition/first-person wording-shape review."
+    },
+    {
+      "id": "query",
+      "title": "Archive Query Workbench",
+      "route": "queryWorkbench",
+      "behavior": "Literal AND/OR/exact-phrase and structural corpus search."
+    },
+    {
+      "id": "state",
+      "title": "Portfolio State Capsule",
+      "route": "stateCapsule",
+      "behavior": "Machine-checkable shipped inventory, hashes and settings."
+    }
+  ],
+  "local_only_storage": [
+    {
+      "key": "udita-integrity-reviews",
+      "system": "Review Queue"
+    },
+    {
+      "key": "udita-private-trail",
+      "system": "Narrative Trail Composer"
+    },
+    {
+      "key": "udita-archive-queries",
+      "system": "Archive Query Workbench"
+    },
+    {
+      "key": "udita-clues",
+      "system": "clue progress"
+    },
+    {
+      "key": "udita-visited",
+      "system": "journey progress"
+    }
+  ],
+  "build_contract": {
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "vercel-build": "vite build",
+      "prebuild": "node scripts/build-content-audit.mjs && node scripts/build-state-capsule.mjs"
+    },
+    "engines": {
+      "node": ">=20.19 <23"
+    },
+    "dependencies": {
+      "lucide-react": "1.47.0",
+      "react": "19.3.0",
+      "react-dom": "19.3.0",
+      "three": "0.186.0"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "6.1.1",
+      "vite": "8.3.0"
+    },
+    "vercel": {
+      "$schema": "https://openapi.vercel.sh/vercel.json",
+      "framework": "vite",
+      "installCommand": "npm ci",
+      "buildCommand": "npm run build",
+      "outputDirectory": "dist",
+      "cleanUrls": true,
+      "headers": [
+        {
+          "source": "/assets/(.*)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/(.*)",
+          "headers": [
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "key": "Permissions-Policy",
+              "value": "camera=(), microphone=(), geolocation=()"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "truth_boundaries": [
+    "Hashes prove byte identity of checked-in files, not authenticity or truth of their contents.",
+    "Feature inventory describes checked-in implementation and successful local production build, not public deployment status or uptime.",
+    "Derived datasets preserve their documented heuristic limits. Provenance is not proof.",
+    "Local-only visitor data is neither published nor shared by the site."
+  ]
+}
