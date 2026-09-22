@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "generated_from": "static checked-in source heuristics during deterministic prebuild",
-  "generated_at": "2026-09-22T01:34:51.132Z",
+  "generated_at": "2026-09-22T01:37:30.765Z",
   "summary": {
-    "checks": 10,
+    "checks": 11,
     "passed": 10,
-    "failed": 0,
-    "errors": 0,
+    "failed": 1,
+    "errors": 1,
     "warnings": 0
   },
   "inventory": {
-    "static_dialog_declarations": 23,
+    "static_dialog_declarations": 24,
     "static_named_dialogs": 23,
     "jsx_images": 5,
     "jsx_images_with_alt": 5,
@@ -23,10 +23,10 @@
     {
       "id": "dialog-names",
       "label": "Every static dialog declaration has an accessible name",
-      "status": "pass",
+      "status": "fail",
       "severity": "error",
       "evidence": {
-        "dialogs": 23,
+        "dialogs": 24,
         "named_dialogs": 23
       }
     },
@@ -46,7 +46,7 @@
       "status": "pass",
       "severity": "warning",
       "evidence": {
-        "dialogs": 23,
+        "dialogs": 24,
         "explicit_close_labels": 28
       }
     },
@@ -77,6 +77,17 @@
       "severity": "error",
       "evidence": {
         "tool_cabinet_escape": true
+      }
+    },
+    {
+      "id": "dialog-focus-management",
+      "label": "Modal dialogs have initial-focus and Tab-containment manager",
+      "status": "pass",
+      "severity": "error",
+      "evidence": {
+        "initial_focus": true,
+        "tab_wrap": true,
+        "shift_tab_wrap": true
       }
     },
     {
@@ -130,7 +141,7 @@
     "Failures and warnings remain visible; the builder does not smooth or suppress them."
   ],
   "source_sha256": {
-    "main_jsx": "06023a426e931f7cae7ec5222a2ebdb3d41be1c3ef2e39856c34783c3724c498",
+    "main_jsx": "d17bda7b36d9cb20dd354359f8680cae5193bd98772a3b0bc93ca37861a0487e",
     "style_css": "dd96e849c6d1f8aff2c7cf1adf6045dc308c11b8c0be7e2b4214e6ede1fcdaee",
     "index_html": "52200ee48fa63d10f36ab61a5af24c005942243a46e1638738344c888c77c58a"
   }

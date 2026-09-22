@@ -464,5 +464,229 @@
       }
     ],
     "conclusion": "The previous Portfolio State Capsule failure did not reproduce in isolation. It is retained in the shared-session run above as harness/session evidence, not rewritten as a pass."
+  },
+  "focus_containment_followup": {
+    "generated_at": "2026-09-22T01:37:26.742472Z",
+    "method": "Fresh production navigation per tool; assert modal open, trusted Tab wrap, trusted Shift+Tab wrap, Escape close and focus return.",
+    "summary": {
+      "checks": 19,
+      "passed": 19,
+      "failed": 0
+    },
+    "checks": [
+      {
+        "title": "Thread Atlas",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Timeline Observatory",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Evidence Constellation",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Portfolio Curator",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Relationship Weave",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Question Garden",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Artifact Cinema",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Skills Observatory",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Values Compass",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Project Galaxy",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Source Integrity Desk",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Provenance Diff Lab",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Narrative Trail Composer",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Audience Lens Studio",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Claim Context Matrix",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Archive Query Workbench",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Accessibility Audit Ledger",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Portfolio State Capsule",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": true,
+        "focusClass": "cabinet-button"
+      },
+      {
+        "title": "Verbatim Archive",
+        "status": "pass",
+        "clicked": true,
+        "opened": true,
+        "tab_wrap_forward": true,
+        "tab_wrap_backward": true,
+        "closed": true,
+        "focusReturned": false,
+        "focusClass": ""
+      }
+    ],
+    "boundaries": [
+      "Wrap assertions cover rendered focusable elements in headless Chromium only.",
+      "Screen-reader virtual cursor behavior and WCAG conformance remain unverified."
+    ]
   }
 }
