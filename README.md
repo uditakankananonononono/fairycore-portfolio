@@ -191,3 +191,8 @@ The Journey HUD includes a Source Integrity Desk backed by `scripts/build-conten
 ### Review Queue
 
 The Source Integrity Desk includes an actionable Review Queue for all 160 heuristic flags. Reviewers can filter by flag type, source and status; search labels and passage IDs; inspect adjacent verbatim passage context; and mark a flag as open, reviewed, accepted as intentional, or needing source cleanup. Decisions are stored only in the current browser under `udita-integrity-reviews` and can be exported as a timestamped JSON review file. This workflow never edits `documents.json`, `activities.json`, or the generated audit. Local decisions are annotations, not corrections, validation, or proof.
+
+
+### Provenance Diff Lab
+
+The Journey HUD’s `⇄ compare` control opens a read-only comparison surface for any two of the 433 canonical passages. Search or limit by source, swap sides, inspect complete passage text side by side, and review each passage’s heuristic artifact/evidence edges. A deterministic lexical scan surfaces up to 20 exact normalized 4–8 word sequences while excluding URLs and punctuation. It makes no claim about copying, influence, authorship, identity, chronology, affiliation, or relationship. The export action downloads a timestamped comparison manifest containing passage identities, evidence leads, scan method, observed phrases, and the same truth boundaries. Comparison never edits canonical content or audit data.
