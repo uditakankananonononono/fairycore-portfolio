@@ -151,3 +151,7 @@ See [DEPLOY.md](./DEPLOY.md) for deployment and production acceptance testing.
 ### Timeline observatory
 
 The Journey HUD includes an exploratory Timeline Observatory. It groups the checked-in activity passages into five broad narrative eras: Origins, Foundation, Research Rooms, Systems, and Forward Questions. It shows source-document orbits, counts and linked passage cards. Because many source documents omit exact dates, the interface explicitly treats this as a navigational interpretation, not a dated CV; no dates are invented.
+
+### Evidence constellation
+
+The Journey HUD includes an Evidence Constellation linking organized passages to their exact source scroll and, only where distinctive name/text terms match, to supplied Drive artifacts. Current deterministic graph: 433 passage nodes, 13 source-scroll nodes, 42 artifact nodes, 356 passage-to-artifact edges, and 278 passages explicitly left without an artifact link. The UI can filter linked vs unresolved nodes, search claims/activities, open exact dossiers, and open supplied Drive artifacts. Provenance is not proof: these links do not authenticate sources, independently verify claims, or prove that an artifact depicts a passage.
