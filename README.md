@@ -171,3 +171,7 @@ The Journey HUD includes a Question Garden extracted from literal question marks
 ### Artifact cinema
 
 The Journey HUD includes an Artifact Cinema for all 42 supplied Drive artifacts. Visitors can filter by image, video, presentation, document, folder or other; search titles; view optimized local versions of selected images; and open every original Drive item. The screening room reverse-links artifacts to Evidence Constellation passages only where grounded matches exist. Unmatched artifacts remain explicit. Display or proximity does not authenticate an artifact or prove a passage.
+
+### Skills observatory
+
+The Journey HUD includes a Skills Observatory across seven transparent groups: Laboratory Methods, Computational Biology, Product and Software, Research Practice, Communication, Leadership and Community, and Art and Design. Each matched passage is classified as **mentioned** or conservatively **described doing** using first-person active-verb patterns; an independent **artifact linked** marker reuses Evidence Constellation matches. These are source-evidence states, not proficiency ratings, and they do not verify quality, recency, independence or authorship.
