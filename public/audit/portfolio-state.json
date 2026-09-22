@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_from": "checked-in repository state during deterministic prebuild",
-  "generated_at": "2026-09-22T01:06:38.862Z",
+  "generated_at": "2026-09-22T01:08:52.491Z",
   "repository": "https://github.com/uditakankananonononono/fairycore-portfolio",
   "deployment_status": "not asserted; this file describes checked-in build state only",
   "canonical_counts": {
@@ -223,7 +223,7 @@
       "build": "vite build",
       "preview": "vite preview",
       "vercel-build": "vite build",
-      "prebuild": "node scripts/build-content-audit.mjs && node scripts/build-state-capsule.mjs"
+      "prebuild": "node scripts/build-content-audit.mjs && node scripts/build-state-capsule.mjs && node scripts/build-accessibility-audit.mjs"
     },
     "engines": {
       "node": ">=20.19 <23"

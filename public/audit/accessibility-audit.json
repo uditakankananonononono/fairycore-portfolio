@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "generated_from": "static checked-in source heuristics during deterministic prebuild",
+  "generated_at": "2026-09-22T01:08:52.534Z",
+  "summary": {
+    "checks": 10,
+    "passed": 10,
+    "failed": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "inventory": {
+    "static_dialog_declarations": 23,
+    "static_named_dialogs": 23,
+    "jsx_images": 5,
+    "jsx_images_with_alt": 5,
+    "explicit_close_labels": 28,
+    "reduced_motion_queries": 6,
+    "focus_visible_rules": 5,
+    "css_color_tokens_observed": 373
+  },
+  "checks": [
+    {
+      "id": "dialog-names",
+      "label": "Every static dialog declaration has an accessible name",
+      "status": "pass",
+      "severity": "error",
+      "evidence": {
+        "dialogs": 23,
+        "named_dialogs": 23
+      }
+    },
+    {
+      "id": "image-alt",
+      "label": "Every JSX image declaration has an alt attribute",
+      "status": "pass",
+      "severity": "error",
+      "evidence": {
+        "images": 5,
+        "with_alt": 5
+      }
+    },
+    {
+      "id": "close-labels",
+      "label": "Dialog close controls have explicit labels",
+      "status": "pass",
+      "severity": "warning",
+      "evidence": {
+        "dialogs": 23,
+        "explicit_close_labels": 28
+      }
+    },
+    {
+      "id": "skip-link",
+      "label": "Skip link targets the main content landmark",
+      "status": "pass",
+      "severity": "error",
+      "evidence": {
+        "skip_link": true,
+        "target": true
+      }
+    },
+    {
+      "id": "keyboard-palette",
+      "label": "Journey has / and Ctrl/Command+K tool access",
+      "status": "pass",
+      "severity": "error",
+      "evidence": {
+        "slash": true,
+        "modifier_k": true
+      }
+    },
+    {
+      "id": "escape-close",
+      "label": "Tool Cabinet closes with Escape",
+      "status": "pass",
+      "severity": "error",
+      "evidence": {
+        "tool_cabinet_escape": true
+      }
+    },
+    {
+      "id": "reduced-motion",
+      "label": "Reduced-motion stylesheet coverage exists",
+      "status": "pass",
+      "severity": "error",
+      "evidence": {
+        "media_queries": 6
+      }
+    },
+    {
+      "id": "focus-visible",
+      "label": "Explicit keyboard focus treatment exists",
+      "status": "pass",
+      "severity": "warning",
+      "evidence": {
+        "focus_visible_rules": 5
+      }
+    },
+    {
+      "id": "language",
+      "label": "Document language is declared",
+      "status": "pass",
+      "severity": "error",
+      "evidence": {
+        "declared": "en"
+      }
+    },
+    {
+      "id": "viewport",
+      "label": "Mobile viewport meta is declared",
+      "status": "pass",
+      "severity": "error",
+      "evidence": {
+        "declared": true
+      }
+    }
+  ],
+  "unverified": [
+    "Runtime focus order across every conditional modal path",
+    "Screen-reader announcement timing and virtual cursor behavior",
+    "Rendered text/background contrast for every dynamic and translucent state",
+    "Keyboard operation inside third-party Three.js canvas",
+    "Browser and assistive-technology combinations",
+    "WCAG conformance or certification"
+  ],
+  "boundaries": [
+    "A passing static check proves only the stated checked-in pattern was observed.",
+    "This report is not a WCAG audit, conformance claim, certification, or substitute for human assistive-technology testing.",
+    "Failures and warnings remain visible; the builder does not smooth or suppress them."
+  ],
+  "source_sha256": {
+    "main_jsx": "5757c3edd1c0c3503eed661eb2b8ee89260c7347f53059c7b6c51ce5e5d72590",
+    "style_css": "6ca7f632910ddc2a7716e735046708bb4f4c0d41e372fdf1822a43d1903dcc37",
+    "index_html": "52200ee48fa63d10f36ab61a5af24c005942243a46e1638738344c888c77c58a"
+  }
+}

@@ -11,7 +11,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "vercel-build": "vite build",
-    "prebuild": "node scripts/build-content-audit.mjs && node scripts/build-state-capsule.mjs"
+    "prebuild": "node scripts/build-content-audit.mjs && node scripts/build-state-capsule.mjs && node scripts/build-accessibility-audit.mjs"
   },
   "dependencies": {
     "lucide-react": "1.47.0",
