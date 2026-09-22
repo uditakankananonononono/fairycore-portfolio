@@ -167,3 +167,7 @@ The Journey HUD includes a Relationship Weave derived only from literal mentions
 ### Question garden
 
 The Journey HUD includes a Question Garden extracted from literal question marks in the supplied writing. After removing URL noise and fragments, it preserves 30 explicit questions across six navigational domains: living systems, intelligence, society, creation, responsibility, and becoming. Every question is displayed as open unless the source explicitly says otherwise; selecting a plant opens its source section and exact passage. Related work is not treated as proof that the question is answered.
+
+### Artifact cinema
+
+The Journey HUD includes an Artifact Cinema for all 42 supplied Drive artifacts. Visitors can filter by image, video, presentation, document, folder or other; search titles; view optimized local versions of selected images; and open every original Drive item. The screening room reverse-links artifacts to Evidence Constellation passages only where grounded matches exist. Unmatched artifacts remain explicit. Display or proximity does not authenticate an artifact or prove a passage.
