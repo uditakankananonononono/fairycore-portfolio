@@ -175,3 +175,7 @@ The Journey HUD includes an Artifact Cinema for all 42 supplied Drive artifacts.
 ### Skills observatory
 
 The Journey HUD includes a Skills Observatory across seven transparent groups: Laboratory Methods, Computational Biology, Product and Software, Research Practice, Communication, Leadership and Community, and Art and Design. Each matched passage is classified as **mentioned** or conservatively **described doing** using first-person active-verb patterns; an independent **artifact linked** marker reuses Evidence Constellation matches. These are source-evidence states, not proficiency ratings, and they do not verify quality, recency, independence or authorship.
+
+### Values compass
+
+The Journey HUD includes a descriptive Values Compass built from explicit configured words in source passages. It indexes Access, Care, Imagination, Honesty, Responsibility, Heritage, Curiosity, and Community, with supporting and tension passages linked to exact dossiers. A ninth candidate, “Tradition over change,” demonstrates the **insufficient evidence** state and is not inferred. Counts are literal term matches, not strength-of-belief or personality scores; tension terms do not prove contradiction.
