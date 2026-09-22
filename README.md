@@ -179,3 +179,7 @@ The Journey HUD includes a Skills Observatory across seven transparent groups: L
 ### Values compass
 
 The Journey HUD includes a descriptive Values Compass built from explicit configured words in source passages. It indexes Access, Care, Imagination, Honesty, Responsibility, Heritage, Curiosity, and Community, with supporting and tension passages linked to exact dossiers. A ninth candidate, “Tradition over change,” demonstrates the **insufficient evidence** state and is not inferred. Counts are literal term matches, not strength-of-belief or personality scores; tension terms do not prove contradiction.
+
+### Project galaxy
+
+The Journey HUD includes a Project Galaxy that groups configured project names and distinctive terms into ten navigational systems: SugarCode, BioNet, Yelon, Engineered Bacteriophages, Hope for Neuro, BioHackers/Community, Algal Bioreactor, Oncolytic Virus Research, Seed-ball Experiment, and Embryo Culture. Each cluster exposes source passages by problem, methods, outputs and open gaps, plus grounded supplied artifacts. Grouping is labeled **grouped-by-name**, not a definitive product taxonomy. Yelon and Seed-ball demonstrate thin/zero parsed-passage states; no project story is invented. Output-related wording does not independently verify completion, ownership, performance or product status.
