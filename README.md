@@ -224,3 +224,9 @@ Named queries persist only in `udita-archive-queries`. Exported/imported manifes
 The Journey HUD’s `◌ state` control opens “What is actually shipped,” an in-site view backed by `public/audit/portfolio-state.json`. `scripts/build-state-capsule.mjs` runs after the content audit during every production prebuild and records: implemented system inventory with working launch routes; canonical counts; SHA-256 fingerprints and record counts for nine canonical/derived datasets; browser-local storage keys; package scripts and pinned dependency versions; checked-in Vercel configuration; repository URL; and permanent truth boundaries. The JSON is downloadable.
 
 Hashes prove byte identity of checked-in files, not authenticity or truth. The inventory describes checked-in implementation and a successful local production build, not public deployment status, uptime, or Vercel account state. Derived views retain their own heuristic limits, and local visitor data remains neither published nor shared.
+
+### HUD Tool Cabinet and command palette
+
+The always-visible `☷ tools` control opens a single accessible launcher for all 18 advanced reading/review systems, including the Verbatim Archive. It replaces the need to expose every specialist control on small screens without removing any capability. Tools are searchable by title, purpose, or group and filterable across Explore, Trace, Present, Review, Audit, and Search. Browser-local decision/trail/query counts appear as count-only badges; their contents are never displayed in the launcher or synced.
+
+From the Journey, `/` or Ctrl/Command+K opens the cabinet unless focus is in a text field. Search receives focus on open, Escape closes the modal, all controls have keyboard focus behavior, and every system is launchable without pointer precision. On mobile, the cabinet entry remains fixed above the viewport edge while the previously crowded specialist buttons stay hidden.
