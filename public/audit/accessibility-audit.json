@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_from": "static checked-in source heuristics during deterministic prebuild",
-  "generated_at": "2026-09-22T01:39:00.291Z",
+  "generated_at": "2026-09-22T01:41:58.907Z",
   "summary": {
     "checks": 11,
     "passed": 10,
@@ -10,14 +10,14 @@
     "warnings": 0
   },
   "inventory": {
-    "static_dialog_declarations": 25,
-    "static_named_dialogs": 24,
+    "static_dialog_declarations": 26,
+    "static_named_dialogs": 25,
     "jsx_images": 5,
     "jsx_images_with_alt": 5,
-    "explicit_close_labels": 28,
+    "explicit_close_labels": 29,
     "reduced_motion_queries": 6,
     "focus_visible_rules": 5,
-    "css_color_tokens_observed": 378
+    "css_color_tokens_observed": 383
   },
   "checks": [
     {
@@ -26,8 +26,8 @@
       "status": "fail",
       "severity": "error",
       "evidence": {
-        "dialogs": 25,
-        "named_dialogs": 24
+        "dialogs": 26,
+        "named_dialogs": 25
       }
     },
     {
@@ -46,8 +46,8 @@
       "status": "pass",
       "severity": "warning",
       "evidence": {
-        "dialogs": 25,
-        "explicit_close_labels": 28
+        "dialogs": 26,
+        "explicit_close_labels": 29
       }
     },
     {
@@ -141,8 +141,8 @@
     "Failures and warnings remain visible; the builder does not smooth or suppress them."
   ],
   "source_sha256": {
-    "main_jsx": "b7b763af116ecc272d70f83baead70cf9bd06239d41e071685bb93a24cdba434",
-    "style_css": "6f6597fdd0b20a95f7b0adfe65888b29a533d781145f5f45cef98bcc8def1704",
+    "main_jsx": "f81f748d0aee3e0c5786ff60d1f02e9d740cd5ed5b8320a465eb01a6c95e57f4",
+    "style_css": "0ae27d400d3359f8cbff24f5eeda8ab47624fea93059b4f302761984a8dba8b4",
     "index_html": "52200ee48fa63d10f36ab61a5af24c005942243a46e1638738344c888c77c58a"
   }
 }

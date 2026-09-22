@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "summary": {
+    "checks": 2,
+    "passed": 2,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "id": "single-delete-isolated",
+      "status": "pass",
+      "before": {
+        "udita-integrity-reviews": "{\"a\":{\"status\":\"reviewed\"}}",
+        "udita-private-trail": "[{\"id\":\"d1-1\",\"label\":\"x\"}]",
+        "udita-archive-queries": "[{\"name\":\"q\",\"query\":{}}]",
+        "udita-clues": "[\"student\"]",
+        "udita-visited": "[\"artist\"]"
+      },
+      "after": {
+        "udita-integrity-reviews": "{\"a\":{\"status\":\"reviewed\"}}",
+        "udita-private-trail": null,
+        "udita-archive-queries": "[{\"name\":\"q\",\"query\":{}}]",
+        "udita-clues": "[\"student\"]",
+        "udita-visited": "[\"artist\"]"
+      }
+    },
+    {
+      "id": "clear-all-local-only",
+      "status": "pass",
+      "after": {
+        "udita-integrity-reviews": null,
+        "udita-private-trail": null,
+        "udita-archive-queries": null,
+        "udita-clues": null,
+        "udita-visited": null
+      },
+      "canonical_shell_present": {
+        "passages": true,
+        "scripts": 1
+      }
+    }
+  ],
+  "boundaries": [
+    "Browser-local storage only; canonical repository data is outside these controls."
+  ]
+}
