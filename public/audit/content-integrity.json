@@ -1,0 +1,802 @@
+{
+  "generated_from": "checked-in content; deterministic local build",
+  "schema_version": 1,
+  "documents": [
+    {
+      "id": 1,
+      "title": "A constellation of Udita",
+      "kind": "info",
+      "characters": 20769,
+      "words": 2865,
+      "nonempty_lines": 197,
+      "passages": 38,
+      "artifact_linked_passages": 20,
+      "duplicate_headings": [
+        "To Join for internship during the program as part of it",
+        "Oncolytic Virotherapy Project",
+        "Tasks",
+        "Research"
+      ],
+      "short_sections": [
+        {
+          "id": "d1-3",
+          "title": "Commonwealth Global Essay Competition 2025 Silver Awardee",
+          "chars": 111
+        },
+        {
+          "id": "d1-4",
+          "title": "The Telegraph 18 Under 18 Award (2025 Winner)",
+          "chars": 102
+        },
+        {
+          "id": "d1-14",
+          "title": "Selected for NeXGen STEM Conference 2025 with full scholarship",
+          "chars": 112
+        },
+        {
+          "id": "d1-22",
+          "title": "Tasks",
+          "chars": 107
+        },
+        {
+          "id": "d1-24",
+          "title": "Tasks",
+          "chars": 96
+        }
+      ],
+      "urls": 12,
+      "url_fragment_passages": [
+        "d1-1",
+        "d1-16",
+        "d1-26",
+        "d1-27"
+      ],
+      "anomaly_count": 13
+    },
+    {
+      "id": 2,
+      "title": "BioNet progress report",
+      "kind": "project",
+      "characters": 71613,
+      "words": 9295,
+      "nonempty_lines": 956,
+      "passages": 172,
+      "artifact_linked_passages": 35,
+      "duplicate_headings": [
+        "Executive Summary",
+        "2.1 Core Research Question",
+        "Equalized Odds Gap (Local): 0.19",
+        "Status: Exceeded",
+        "Status: Achieved",
+        "References",
+        "1. Technical Title",
+        "2.3 Research Objectives",
+        "4.1 Predictive Performance Comparison",
+        "Metric: Matching Accuracy",
+        "7.1 Key Findings",
+        "7.3 Next Steps",
+        "7.4 Impact Statement",
+        "Performance is evaluated across three dimensions"
+      ],
+      "short_sections": [
+        {
+          "id": "d2-16",
+          "title": "4.2 Fairness Metrics Across Demographic Groups",
+          "chars": 100
+        },
+        {
+          "id": "d2-17",
+          "title": "Fairness Metrics by Demographic Group (Federated vs. Local-Only)",
+          "chars": 36
+        },
+        {
+          "id": "d2-20",
+          "title": "Privacy-Utility Trade-off with Differential Privacy",
+          "chars": 68
+        },
+        {
+          "id": "d2-21",
+          "title": "Model Utility Score: 1.00",
+          "chars": 61
+        },
+        {
+          "id": "d2-22",
+          "title": "Model Utility Score: 0.97",
+          "chars": 60
+        },
+        {
+          "id": "d2-23",
+          "title": "Model Utility Score: 0.93",
+          "chars": 60
+        },
+        {
+          "id": "d2-24",
+          "title": "Model Utility Score: 0.87",
+          "chars": 60
+        },
+        {
+          "id": "d2-26",
+          "title": "4.4 Communication Efficiency",
+          "chars": 114
+        },
+        {
+          "id": "d2-27",
+          "title": "Model Accuracy: 0.523",
+          "chars": 66
+        },
+        {
+          "id": "d2-28",
+          "title": "Model Accuracy: 0.712",
+          "chars": 69
+        },
+        {
+          "id": "d2-29",
+          "title": "Model Accuracy: 0.798",
+          "chars": 71
+        },
+        {
+          "id": "d2-30",
+          "title": "Model Accuracy: 0.841",
+          "chars": 71
+        },
+        {
+          "id": "d2-31",
+          "title": "Model Accuracy: 0.858",
+          "chars": 71
+        },
+        {
+          "id": "d2-32",
+          "title": "Model Accuracy: 0.868",
+          "chars": 71
+        },
+        {
+          "id": "d2-33",
+          "title": "Model Accuracy: 0.874",
+          "chars": 73
+        },
+        {
+          "id": "d2-35",
+          "title": "4.5 Performance Across Hospital Sites",
+          "chars": 73
+        },
+        {
+          "id": "d2-36",
+          "title": "Local Data Size: 50,000",
+          "chars": 46
+        },
+        {
+          "id": "d2-37",
+          "title": "Local Data Size: 15,000",
+          "chars": 46
+        },
+        {
+          "id": "d2-38",
+          "title": "Improvement: +1.9%",
+          "chars": 60
+        },
+        {
+          "id": "d2-39",
+          "title": "Local Data Size: 8,000",
+          "chars": 46
+        },
+        {
+          "id": "d2-40",
+          "title": "Local Data Size: 10,000",
+          "chars": 46
+        },
+        {
+          "id": "d2-41",
+          "title": "Local Data Size: 12,000",
+          "chars": 46
+        },
+        {
+          "id": "d2-43",
+          "title": "BioNet Success Metrics Achieved",
+          "chars": 46
+        },
+        {
+          "id": "d2-44",
+          "title": "Status: Exceeded",
+          "chars": 54
+        },
+        {
+          "id": "d2-45",
+          "title": "Status: Achieved",
+          "chars": 36
+        },
+        {
+          "id": "d2-46",
+          "title": "Status: Exceeded",
+          "chars": 94
+        },
+        {
+          "id": "d2-47",
+          "title": "Status: Achieved",
+          "chars": 77
+        },
+        {
+          "id": "d2-48",
+          "title": "Status: Achieved",
+          "chars": 51
+        },
+        {
+          "id": "d2-49",
+          "title": "Status: Achieved",
+          "chars": 86
+        },
+        {
+          "id": "d2-74",
+          "title": "Metric: Matching Accuracy",
+          "chars": 37
+        },
+        {
+          "id": "d2-79",
+          "title": "Demographic Group: South Asian",
+          "chars": 65
+        },
+        {
+          "id": "d2-81",
+          "title": "Demographic Group: East Asian",
+          "chars": 65
+        },
+        {
+          "id": "d2-84",
+          "title": "Variable Importance in AI Matching Model",
+          "chars": 36
+        },
+        {
+          "id": "d2-85",
+          "title": "Cumulative Contribution: 28%",
+          "chars": 45
+        },
+        {
+          "id": "d2-86",
+          "title": "Cumulative Contribution: 50%",
+          "chars": 40
+        },
+        {
+          "id": "d2-87",
+          "title": "Cumulative Contribution: 83%",
+          "chars": 41
+        },
+        {
+          "id": "d2-89",
+          "title": "BioNet Direction 2 Success Metrics Achieved",
+          "chars": 54
+        },
+        {
+          "id": "d2-90",
+          "title": "Status: Exceeded",
+          "chars": 42
+        },
+        {
+          "id": "d2-91",
+          "title": "Status: Achieved",
+          "chars": 61
+        },
+        {
+          "id": "d2-92",
+          "title": "Status: Exceeded",
+          "chars": 39
+        },
+        {
+          "id": "d2-93",
+          "title": "Status: Achieved",
+          "chars": 93
+        },
+        {
+          "id": "d2-103",
+          "title": "References",
+          "chars": 107
+        },
+        {
+          "id": "d2-112",
+          "title": "Metric: Disconnected System (Baseline)",
+          "chars": 39
+        },
+        {
+          "id": "d2-113",
+          "title": "Network Density: 0.037",
+          "chars": 69
+        },
+        {
+          "id": "d2-114",
+          "title": "Metric: Connected System (Optimized)",
+          "chars": 40
+        },
+        {
+          "id": "d2-116",
+          "title": "Sample Accessibility Metrics",
+          "chars": 46
+        },
+        {
+          "id": "d2-117",
+          "title": "Improvement: -83%",
+          "chars": 42
+        },
+        {
+          "id": "d2-118",
+          "title": "Improvement: +66%",
+          "chars": 45
+        },
+        {
+          "id": "d2-120",
+          "title": "Reduction: -65%",
+          "chars": 36
+        },
+        {
+          "id": "d2-121",
+          "title": "Reduction: -62%",
+          "chars": 43
+        },
+        {
+          "id": "d2-124",
+          "title": "BioNet Direction 3 Success Metrics Achieved",
+          "chars": 36
+        },
+        {
+          "id": "d2-125",
+          "title": "Status: Exceeded",
+          "chars": 42
+        },
+        {
+          "id": "d2-126",
+          "title": "Status: Exceeded",
+          "chars": 45
+        },
+        {
+          "id": "d2-127",
+          "title": "Status: Exceeded",
+          "chars": 38
+        },
+        {
+          "id": "d2-128",
+          "title": "Status: Exceeded",
+          "chars": 38
+        },
+        {
+          "id": "d2-129",
+          "title": "Status: Exceeded",
+          "chars": 100
+        },
+        {
+          "id": "d2-149",
+          "title": "Detected Bias Score: Very High (0.92)",
+          "chars": 44
+        },
+        {
+          "id": "d2-150",
+          "title": "Detected Bias Score: Moderate (0.45)",
+          "chars": 44
+        },
+        {
+          "id": "d2-152",
+          "title": "Change: -69.6%",
+          "chars": 44
+        },
+        {
+          "id": "d2-155",
+          "title": "Reduction: -57.1%",
+          "chars": 43
+        },
+        {
+          "id": "d2-157",
+          "title": "BioNet Direction 4 Success Metrics Achieved",
+          "chars": 56
+        },
+        {
+          "id": "d2-158",
+          "title": "Status: Exceeded",
+          "chars": 38
+        },
+        {
+          "id": "d2-159",
+          "title": "Status: Exceeded",
+          "chars": 36
+        },
+        {
+          "id": "d2-160",
+          "title": "Status: Exceeded",
+          "chars": 43
+        },
+        {
+          "id": "d2-161",
+          "title": "Status: Exceeded",
+          "chars": 41
+        },
+        {
+          "id": "d2-162",
+          "title": "Status: Achieved",
+          "chars": 89
+        }
+      ],
+      "urls": 0,
+      "url_fragment_passages": [],
+      "anomaly_count": 80
+    },
+    {
+      "id": 3,
+      "title": "Essays & blogs",
+      "kind": "writing",
+      "characters": 22852,
+      "words": 3681,
+      "nonempty_lines": 69,
+      "passages": 19,
+      "artifact_linked_passages": 10,
+      "duplicate_headings": [
+        "The Birth of a Scientist",
+        "The Alchemy of Time",
+        "The Hidden Curriculum",
+        "Spectrum",
+        "Chapter of Life",
+        "Between equations for CRISPR-guided gene edits and notes from Stanford AI4All, I scribbled"
+      ],
+      "short_sections": [],
+      "urls": 0,
+      "url_fragment_passages": [],
+      "anomaly_count": 6
+    },
+    {
+      "id": 4,
+      "title": "SugarCode AI: 78-module atlas",
+      "kind": "project",
+      "characters": 29544,
+      "words": 3839,
+      "nonempty_lines": 79,
+      "passages": 26,
+      "artifact_linked_passages": 26,
+      "duplicate_headings": [
+        "SugarCode AI: 78-module atlas"
+      ],
+      "short_sections": [],
+      "urls": 0,
+      "url_fragment_passages": [],
+      "anomaly_count": 1
+    },
+    {
+      "id": 5,
+      "title": "Engineered Bacteriophages",
+      "kind": "research",
+      "characters": 44606,
+      "words": 5431,
+      "nonempty_lines": 588,
+      "passages": 67,
+      "artifact_linked_passages": 7,
+      "duplicate_headings": [
+        "Udita Phookan",
+        "one of nature's most ancient and prolific bacterial predators",
+        "computational design, and machine learning is forging a new frontier",
+        "key setbacks",
+        "Key Limitations",
+        "Medical & Therapeutic Applications",
+        "Biotechnology, Agriculture & Environmental Applications",
+        "Retron-Mediated Genome Editing",
+        "chromosome vectors. Science, 236(4803), 806-812. doi",
+        "therapy (2024). Frontiers in Microbiology, 15, 1449844. doi"
+      ],
+      "short_sections": [
+        {
+          "id": "d5-10",
+          "title": "computational design, and machine learning is forging a new frontier",
+          "chars": 69
+        },
+        {
+          "id": "d5-18",
+          "title": "Source: Rangel-Chávez, C., Galán-Vásquez, E., & Martínez-Antonio, A.",
+          "chars": 65
+        },
+        {
+          "id": "d5-36",
+          "title": "and delivery platforms. Molecules, 30(15), 3132. doi",
+          "chars": 92
+        },
+        {
+          "id": "d5-37",
+          "title": "engineering. Trends in Biotechnology, 41(5), 669-685. doi",
+          "chars": 102
+        },
+        {
+          "id": "d5-38",
+          "title": "to several hundred kilobases. Nature Methods, 6(5), 343-345. doi",
+          "chars": 82
+        },
+        {
+          "id": "d5-41",
+          "title": "chromosome vectors. Science, 236(4803), 806-812. doi",
+          "chars": 45
+        },
+        {
+          "id": "d5-42",
+          "title": "21. Dunne, M., et al. (2021). Reprogramming bacteriophage host range",
+          "chars": 65
+        },
+        {
+          "id": "d5-46",
+          "title": "information. Nature Microbiology, 9(11), 2847-2861. doi",
+          "chars": 99
+        },
+        {
+          "id": "d5-50",
+          "title": "March 11, 2024.",
+          "chars": 69
+        },
+        {
+          "id": "d5-52",
+          "title": "Research, 248, 120856. doi: 10.1016/j.watres.2024.120856",
+          "chars": 72
+        },
+        {
+          "id": "d5-55",
+          "title": "Mycobacterium tuberculosis. Nature Methods, 4(2), 147-152. doi",
+          "chars": 89
+        },
+        {
+          "id": "d5-62",
+          "title": "bacteria. Nature Communications, 11(1), 2934. doi",
+          "chars": 93
+        },
+        {
+          "id": "d5-67",
+          "title": "December 2024.",
+          "chars": 102
+        }
+      ],
+      "urls": 0,
+      "url_fragment_passages": [],
+      "anomaly_count": 23
+    },
+    {
+      "id": 6,
+      "title": "Mother",
+      "kind": "writing",
+      "characters": 3148,
+      "words": 552,
+      "nonempty_lines": 53,
+      "passages": 5,
+      "artifact_linked_passages": 0,
+      "duplicate_headings": [
+        "My breath was an echo I couldn’t catch."
+      ],
+      "short_sections": [],
+      "urls": 0,
+      "url_fragment_passages": [],
+      "anomaly_count": 1
+    },
+    {
+      "id": 7,
+      "title": "A life told through signal and noise",
+      "kind": "life",
+      "characters": 9759,
+      "words": 1510,
+      "nonempty_lines": 40,
+      "passages": 8,
+      "artifact_linked_passages": 3,
+      "duplicate_headings": [
+        "A life told through signal and noise"
+      ],
+      "short_sections": [],
+      "urls": 0,
+      "url_fragment_passages": [],
+      "anomaly_count": 1
+    },
+    {
+      "id": 8,
+      "title": "Better questions",
+      "kind": "writing",
+      "characters": 4593,
+      "words": 738,
+      "nonempty_lines": 93,
+      "passages": 5,
+      "artifact_linked_passages": 1,
+      "duplicate_headings": [
+        "Better questions"
+      ],
+      "short_sections": [],
+      "urls": 0,
+      "url_fragment_passages": [],
+      "anomaly_count": 1
+    },
+    {
+      "id": 9,
+      "title": "Honors, exams & experiences",
+      "kind": "student",
+      "characters": 15715,
+      "words": 2128,
+      "nonempty_lines": 33,
+      "passages": 14,
+      "artifact_linked_passages": 9,
+      "duplicate_headings": [
+        "Honors, exams & experiences",
+        "4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhi"
+      ],
+      "short_sections": [
+        {
+          "id": "d9-9",
+          "title": "Honors, exams & experiences",
+          "chars": 71
+        }
+      ],
+      "urls": 4,
+      "url_fragment_passages": [
+        "d9-13"
+      ],
+      "anomaly_count": 4
+    },
+    {
+      "id": 10,
+      "title": "Research interests & long-range goals",
+      "kind": "life",
+      "characters": 23021,
+      "words": 3497,
+      "nonempty_lines": 354,
+      "passages": 26,
+      "artifact_linked_passages": 15,
+      "duplicate_headings": [
+        "My research interests",
+        "to treat Alzheimer's, to treat neurodegenerative diseases? Period blood",
+        "What are my long-range goals?",
+        "What activities and/or hobbies demonstrate my leadership, creativity and",
+        "Indigo International Academic Conference.",
+        "The Tuesday the committee voted to advance our bill, I was sitting in a",
+        "My work with EcoBrothers became real the day a teacher from rural Bihar",
+        "Premonition Research"
+      ],
+      "short_sections": [],
+      "urls": 0,
+      "url_fragment_passages": [],
+      "anomaly_count": 8
+    },
+    {
+      "id": 11,
+      "title": "Academic portfolio",
+      "kind": "student",
+      "characters": 26465,
+      "words": 3566,
+      "nonempty_lines": 144,
+      "passages": 31,
+      "artifact_linked_passages": 18,
+      "duplicate_headings": [
+        "Cultural, Artistic & Global Engagement",
+        "4. Abstract of Research Paper submitted in 7th grade for Science Conference, Delhi"
+      ],
+      "short_sections": [
+        {
+          "id": "d11-1",
+          "title": "Academic portfolio",
+          "chars": 56
+        },
+        {
+          "id": "d11-3",
+          "title": "95/100 (99 Percentile)",
+          "chars": 42
+        },
+        {
+          "id": "d11-4",
+          "title": "55/60 (99 Percentile)",
+          "chars": 37
+        },
+        {
+          "id": "d11-5",
+          "title": "35/60 (94 Percentile)",
+          "chars": 37
+        },
+        {
+          "id": "d11-6",
+          "title": "45/60 (98 Percentile)",
+          "chars": 37
+        },
+        {
+          "id": "d11-7",
+          "title": "44/60 (90 Percentile)",
+          "chars": 37
+        },
+        {
+          "id": "d11-8",
+          "title": "43/60 (89 Percentile)",
+          "chars": 54
+        },
+        {
+          "id": "d11-9",
+          "title": "94/100 (State Rank 2)",
+          "chars": 54
+        },
+        {
+          "id": "d11-26",
+          "title": "Cultural, Artistic & Global Engagement",
+          "chars": 71
+        }
+      ],
+      "urls": 4,
+      "url_fragment_passages": [
+        "d11-30"
+      ],
+      "anomaly_count": 12
+    },
+    {
+      "id": 12,
+      "title": "Research & laboratory experience",
+      "kind": "research",
+      "characters": 8609,
+      "words": 1166,
+      "nonempty_lines": 22,
+      "passages": 8,
+      "artifact_linked_passages": 8,
+      "duplicate_headings": [
+        "Cultural, Artistic & Global Engagement"
+      ],
+      "short_sections": [],
+      "urls": 0,
+      "url_fragment_passages": [],
+      "anomaly_count": 1
+    },
+    {
+      "id": 13,
+      "title": "The agar dress",
+      "kind": "life",
+      "characters": 7487,
+      "words": 1099,
+      "nonempty_lines": 105,
+      "passages": 14,
+      "artifact_linked_passages": 3,
+      "duplicate_headings": [
+        "The agar dress"
+      ],
+      "short_sections": [
+        {
+          "id": "d13-7",
+          "title": "95/100 (99 Percentile)",
+          "chars": 42
+        },
+        {
+          "id": "d13-8",
+          "title": "55/60 (99 Percentile)",
+          "chars": 37
+        },
+        {
+          "id": "d13-9",
+          "title": "35/60 (94 Percentile)",
+          "chars": 37
+        },
+        {
+          "id": "d13-10",
+          "title": "45/60 (98 Percentile)",
+          "chars": 37
+        },
+        {
+          "id": "d13-11",
+          "title": "44/60 (90 Percentile)",
+          "chars": 37
+        },
+        {
+          "id": "d13-12",
+          "title": "43/60 (89 Percentile)",
+          "chars": 54
+        },
+        {
+          "id": "d13-13",
+          "title": "94/100 (State Rank 2)",
+          "chars": 54
+        }
+      ],
+      "urls": 1,
+      "url_fragment_passages": [
+        "d13-5"
+      ],
+      "anomaly_count": 9
+    }
+  ],
+  "totals": {
+    "documents": 13,
+    "characters": 288181,
+    "words": 39367,
+    "passages": 433,
+    "drive_artifacts": 42,
+    "artifact_edges": 356,
+    "anomalies": 160
+  },
+  "boundaries": [
+    "Counts prove checked-in inclusion, not source authenticity.",
+    "Anomalies are surfaced heuristics, not confirmed errors.",
+    "Artifact matches are deterministic links, not proof."
+  ]
+}

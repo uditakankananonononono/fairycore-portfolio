@@ -183,3 +183,7 @@ The Journey HUD includes a descriptive Values Compass built from explicit config
 ### Project galaxy
 
 The Journey HUD includes a Project Galaxy that groups configured project names and distinctive terms into ten navigational systems: SugarCode, BioNet, Yelon, Engineered Bacteriophages, Hope for Neuro, BioHackers/Community, Algal Bioreactor, Oncolytic Virus Research, Seed-ball Experiment, and Embryo Culture. Each cluster exposes source passages by problem, methods, outputs and open gaps, plus grounded supplied artifacts. Grouping is labeled **grouped-by-name**, not a definitive product taxonomy. Yelon and Seed-ball demonstrate thin/zero parsed-passage states; no project story is invented. Output-related wording does not independently verify completion, ownership, performance or product status.
+
+### Source integrity desk
+
+The Journey HUD includes a Source Integrity Desk backed by `scripts/build-content-audit.mjs`. Every production build regenerates `public/audit/content-integrity.json`. Current checked-in totals: 13 documents, 288,181 characters, 39,367 words, 433 passages, 42 Drive artifacts, 356 artifact edges, and 160 surfaced heuristic anomalies. Per-source views show counts, artifact-linked coverage, duplicate-looking headings, short parsed sections and URL-fragment passages. The JSON report is downloadable. Counts prove checked-in inclusion, not source authenticity; anomalies are review flags, not confirmed errors.
