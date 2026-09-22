@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "generated_from": "simulated HTTP 503 against production audit resources",
+  "summary": {
+    "checks": 3,
+    "passed": 3,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "title": "Source Integrity Desk",
+      "status": "pass",
+      "fallback_shown": true,
+      "no_false_empty": true,
+      "mobile_no_overflow": true,
+      "retry_recovered": true
+    },
+    {
+      "title": "Portfolio State Capsule",
+      "status": "pass",
+      "fallback_shown": true,
+      "no_false_empty": true,
+      "mobile_no_overflow": true,
+      "retry_recovered": true
+    },
+    {
+      "title": "Accessibility Audit Ledger",
+      "status": "pass",
+      "fallback_shown": true,
+      "no_false_empty": true,
+      "mobile_no_overflow": true,
+      "retry_recovered": true
+    }
+  ],
+  "boundaries": [
+    "Cases cover generated audit JSON requests only.",
+    "Graceful failure does not mean the full 3D site works offline.",
+    "Dynamic JavaScript chunk failure remains browser-managed and may require page reload."
+  ]
+}
