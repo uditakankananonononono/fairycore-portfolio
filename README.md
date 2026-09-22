@@ -155,3 +155,7 @@ The Journey HUD includes an exploratory Timeline Observatory. It groups the chec
 ### Evidence constellation
 
 The Journey HUD includes an Evidence Constellation linking organized passages to their exact source scroll and, only where distinctive name/text terms match, to supplied Drive artifacts. Current deterministic graph: 433 passage nodes, 13 source-scroll nodes, 42 artifact nodes, 356 passage-to-artifact edges, and 278 passages explicitly left without an artifact link. The UI can filter linked vs unresolved nodes, search claims/activities, open exact dossiers, and open supplied Drive artifacts. Provenance is not proof: these links do not authenticate sources, independently verify claims, or prove that an artifact depicts a passage.
+
+### Portfolio curator
+
+The Journey HUD includes a bounded Portfolio Curator for real visitors. A visitor selects an audience (research mentor, admissions reader, collaborator, investor/incubator, or general visitor) and a 2-, 5-, or 10-minute budget. The mode deterministically assembles 4, 8, or 14 stops from existing passages using declared keyword coverage plus source/content-type diversity. Every stop explains why it was selected and opens the complete dossier. This is not a quality ranking, admissions prediction, investment recommendation, or scientific assessment, and it never replaces the full atlas.
