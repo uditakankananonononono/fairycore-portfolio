@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "vercel-build": "vite build",
     "prebuild": "node scripts/build-content-audit.mjs && node scripts/build-state-capsule.mjs && node scripts/build-accessibility-audit.mjs",
-    "audit:runtime": "node scripts/runtime-accessibility-audit.mjs"
+    "audit:runtime": "node scripts/runtime-accessibility-audit.mjs",
+    "audit:runtime:isolated": "node scripts/runtime-isolated-cases.mjs"
   },
   "dependencies": {
     "lucide-react": "1.47.0",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_from": "static checked-in source heuristics during deterministic prebuild",
-  "generated_at": "2026-09-22T01:25:08.482Z",
+  "generated_at": "2026-09-22T01:34:51.132Z",
   "summary": {
     "checks": 10,
     "passed": 10,
@@ -130,8 +130,8 @@
     "Failures and warnings remain visible; the builder does not smooth or suppress them."
   ],
   "source_sha256": {
-    "main_jsx": "232e24d62857d32d564d9c4c52699506695e90d20f0e906c15b5d7d648425386",
-    "style_css": "76d3c7397e6d1fc33e617c3703cbef7bd9576895971c2e5439b2e0dbb068e70c",
+    "main_jsx": "06023a426e931f7cae7ec5222a2ebdb3d41be1c3ef2e39856c34783c3724c498",
+    "style_css": "dd96e849c6d1f8aff2c7cf1adf6045dc308c11b8c0be7e2b4214e6ede1fcdaee",
     "index_html": "52200ee48fa63d10f36ab61a5af24c005942243a46e1638738344c888c77c58a"
   }
 }
