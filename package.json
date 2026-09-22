@@ -11,7 +11,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "vercel-build": "vite build",
-    "prebuild": "node scripts/build-content-audit.mjs && node scripts/build-state-capsule.mjs && node scripts/build-accessibility-audit.mjs",
+    "prebuild": "node scripts/build-content-audit.mjs && node scripts/build-state-capsule.mjs && node scripts/build-accessibility-audit.mjs && node scripts/build-qa-index.mjs",
     "audit:runtime": "node scripts/runtime-accessibility-audit.mjs",
     "audit:runtime:isolated": "node scripts/runtime-isolated-cases.mjs",
     "audit:failures": "node scripts/runtime-failure-cases.mjs",

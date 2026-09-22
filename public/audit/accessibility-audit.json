@@ -1,33 +1,33 @@
 {
   "schema_version": 1,
   "generated_from": "static checked-in source heuristics during deterministic prebuild",
-  "generated_at": "2026-09-22T01:41:58.907Z",
+  "generated_at": "2026-09-22T01:43:28.227Z",
   "summary": {
     "checks": 11,
-    "passed": 10,
-    "failed": 1,
-    "errors": 1,
+    "passed": 11,
+    "failed": 0,
+    "errors": 0,
     "warnings": 0
   },
   "inventory": {
     "static_dialog_declarations": 26,
-    "static_named_dialogs": 25,
+    "static_named_dialogs": 26,
     "jsx_images": 5,
     "jsx_images_with_alt": 5,
-    "explicit_close_labels": 29,
+    "explicit_close_labels": 31,
     "reduced_motion_queries": 6,
     "focus_visible_rules": 5,
-    "css_color_tokens_observed": 383
+    "css_color_tokens_observed": 392
   },
   "checks": [
     {
       "id": "dialog-names",
       "label": "Every static dialog declaration has an accessible name",
-      "status": "fail",
+      "status": "pass",
       "severity": "error",
       "evidence": {
         "dialogs": 26,
-        "named_dialogs": 25
+        "named_dialogs": 26
       }
     },
     {
@@ -47,7 +47,7 @@
       "severity": "warning",
       "evidence": {
         "dialogs": 26,
-        "explicit_close_labels": 29
+        "explicit_close_labels": 31
       }
     },
     {
@@ -141,8 +141,8 @@
     "Failures and warnings remain visible; the builder does not smooth or suppress them."
   ],
   "source_sha256": {
-    "main_jsx": "f81f748d0aee3e0c5786ff60d1f02e9d740cd5ed5b8320a465eb01a6c95e57f4",
-    "style_css": "0ae27d400d3359f8cbff24f5eeda8ab47624fea93059b4f302761984a8dba8b4",
+    "main_jsx": "6167af8515d84b08a381705a84297577533d360bb670a3ac420937f916da8652",
+    "style_css": "d0eb3421e1b2bdd87bf48ccb69d8b23328d7cb094ebcb0b02e3cf0915ececb4c",
     "index_html": "52200ee48fa63d10f36ab61a5af24c005942243a46e1638738344c888c77c58a"
   }
 }
