@@ -163,3 +163,7 @@ The Journey HUD includes a bounded Portfolio Curator for real visitors. A visito
 ### Relationship weave
 
 The Journey HUD includes a Relationship Weave derived only from literal mentions in the 13 supplied documents. It currently maps 47 named people, institutions, programs, companies and projects to 362 passage mentions. Selecting a node opens every matching passage and its exact dossier. A six-item collision ledger keeps broad acronyms and unresolved identity variants explicit (including MIT, Harvard, Oxford, HMS, Dr. Su/X. Su, and Giannikou/K. Giannikou). Appearance in supplied text is not proof of affiliation, endorsement, mentorship, employment or collaboration; no external identity reconciliation is claimed.
+
+### Question garden
+
+The Journey HUD includes a Question Garden extracted from literal question marks in the supplied writing. After removing URL noise and fragments, it preserves 30 explicit questions across six navigational domains: living systems, intelligence, society, creation, responsibility, and becoming. Every question is displayed as open unless the source explicitly says otherwise; selecting a plant opens its source section and exact passage. Related work is not treated as proof that the question is answered.
