@@ -159,3 +159,7 @@ The Journey HUD includes an Evidence Constellation linking organized passages to
 ### Portfolio curator
 
 The Journey HUD includes a bounded Portfolio Curator for real visitors. A visitor selects an audience (research mentor, admissions reader, collaborator, investor/incubator, or general visitor) and a 2-, 5-, or 10-minute budget. The mode deterministically assembles 4, 8, or 14 stops from existing passages using declared keyword coverage plus source/content-type diversity. Every stop explains why it was selected and opens the complete dossier. This is not a quality ranking, admissions prediction, investment recommendation, or scientific assessment, and it never replaces the full atlas.
+
+### Relationship weave
+
+The Journey HUD includes a Relationship Weave derived only from literal mentions in the 13 supplied documents. It currently maps 47 named people, institutions, programs, companies and projects to 362 passage mentions. Selecting a node opens every matching passage and its exact dossier. A six-item collision ledger keeps broad acronyms and unresolved identity variants explicit (including MIT, Harvard, Oxford, HMS, Dr. Su/X. Su, and Giannikou/K. Giannikou). Appearance in supplied text is not proof of affiliation, endorsement, mentorship, employment or collaboration; no external identity reconciliation is claimed.
